@@ -19,6 +19,7 @@
       "configPageName": "chaveDeSetaPage",
       "controllerList": null,
       "config": {
+	"hasConfigPage": true,
         "sleepThread": 200,
 		"chaveDeSetaConfig": {
           "parkingLightsControl": true,
