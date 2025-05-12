@@ -4320,6 +4320,7 @@
 		  "hasScreen": true,
 		  "hasLights": true,
           "gauges": 2,
+	"queue": true,
           "pagesConfigs": {
             "globalInfos": {
               "clock": true,
