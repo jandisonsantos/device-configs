@@ -4276,7 +4276,7 @@
       },
       "buttons": []
     },
-	{
+	 {
       "name": "Painel Scania",
       "vid": "2020",
       "pid": "1038",
@@ -4285,12 +4285,22 @@
       "controllerList": null,
       "config": {
         "sleepThread": 300,
-        "ESPDashboardConfig": {
-          "getBrightness": false,
-		  "hasScreen": false,
-		  "hasLights": true,
+        "pageConfigs": {
+          "startAnimPage": 2,
+          "endAnimPage": 13,
+          "pausedPageScreen": 14,
+          "totalPages": 10,
+          "getBrightness": true,
           "gauges": 2,
-          "pagesConfigs": null,
+          "pagesConfigs": {
+            "globalInfos": {
+              "clock": true,
+              "shifterSpeed": true,
+              "retarder": true,
+              "fuel": true,
+              "airPressure": true
+            }
+          },
           "gaugesConfigs": {
             "rpm": true,
             "speed": true,
@@ -4300,7 +4310,35 @@
             "tempWater": false,
             "oilPressure": false
           }
-        }
+        },
+		"ESPDashboardConfig": {
+		  "startAnimPage": 2,
+          "endAnimPage": 13,
+          "pausedPageScreen": 14,
+          "totalPages": 10,
+          "getBrightness": true,
+		  "hasScreen": true,
+		  "hasLights": true,
+          "gauges": 2,
+          "pagesConfigs": {
+            "globalInfos": {
+              "clock": true,
+              "shifterSpeed": true,
+              "retarder": true,
+              "fuel": true,
+              "airPressure": true
+            }
+          },
+          "gaugesConfigs": {
+            "rpm": true,
+            "speed": true,
+            "speedLimit": 140,
+            "airPressure": false,
+            "fuel": false,
+            "tempWater": false,
+            "oilPressure": false
+          }
+		}
       },
       "buttons": []
     },
