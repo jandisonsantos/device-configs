@@ -1,5 +1,5 @@
 {
-  "version": 3.63,
+  "version": 3.64,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -1330,6 +1330,58 @@
         {
           "name": "parking_break_up",
           "btId": 21,
+          "KeyboardKey": "space",
+          "truckVariableName": "ParkBrakeUp",
+          "pressedButton": false
+        },
+		{
+		  "name": "flasher4way",
+		  "btId": 23,
+		  "keyboardKey": "",
+		  "truckVariableName": "",
+		  "gameInput": "flasher4way",
+		  "pressedButton": false,
+		  "enableInPausedGame": false
+		},
+      ]
+    },
+{
+      "name": "Button Box Valencia",
+      "vid": "2020",
+      "pid": "1115",
+      "type": "ButtonBox",
+      "configPageName": "buttonBoxPage",
+      "controllerList": null,
+      "config": {
+        "additionalLights": true,
+        "RGBLights": true,
+        "hasConfigPage": true
+      },
+      "buttons": [
+		{
+          "name": "eletrical_engine",
+          "btId": 15,
+          "KeyboardKey": "r",
+          "truckVariableName": "ElectricOn",
+          "pressedButton": false
+        },
+        {
+          "name": "start_engine",
+          "btId": 16,
+          "KeyboardKey": "e",
+          "truckVariableName": "ElectricStart",
+          "pressedButton": false
+        },
+        {
+          "name": "parking_break_down",
+          "btId": 21,
+          "KeyboardKey": "space",
+          "truckVariableName": "ParkBrakeDown",
+          "pressedButton": false
+        },
+        {
+          "name": "parking_break_up",
+          "btId": 22,
           "KeyboardKey": "space",
           "truckVariableName": "ParkBrakeUp",
           "pressedButton": false
