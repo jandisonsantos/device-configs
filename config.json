@@ -1,5 +1,5 @@
 {
-  "version": 3.64,
+  "version": 3.65,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -1655,6 +1655,20 @@
           "pressedButton": false
         }
       ]
+    },
+	  {
+      "name": "Button Box Girona",
+      "vid": "2020",
+      "pid": "0021",
+      "type": "ButtonBox",
+      "configPageName": "buttonBoxPage",
+      "controllerList": null,
+      "config": {
+        "additionalLights": true,
+        "RGBLights": true,
+        "hasConfigPage": true
+      },
+      "buttons": []
     },
     {
       "name": "Button Box Orlando",
