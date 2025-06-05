@@ -1,5 +1,5 @@
 {
-  "version": 3.65,
+  "version": 3.66,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -1668,7 +1668,36 @@
         "RGBLights": true,
         "hasConfigPage": true
       },
-      "buttons": []
+      "buttons": [
+	      {
+          "name": "eletrical_engine",
+          "btId": 16,
+          "KeyboardKey": "r",
+          "truckVariableName": "ElectricOn",
+          "pressedButton": false
+        },
+        {
+          "name": "start_engine",
+          "btId": 17,
+          "KeyboardKey": "e",
+          "truckVariableName": "ElectricStart",
+          "pressedButton": false
+        },
+        {
+          "name": "parking_break_down",
+          "btId": 22,
+          "KeyboardKey": "space",
+          "truckVariableName": "ParkBrakeDown",
+          "pressedButton": false
+        },
+        {
+          "name": "parking_break_up",
+          "btId": 23,
+          "KeyboardKey": "space",
+          "truckVariableName": "ParkBrakeUp",
+          "pressedButton": false
+        }
+      ]
     },
     {
       "name": "Button Box Orlando",
