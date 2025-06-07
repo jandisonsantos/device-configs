@@ -1,5 +1,5 @@
 {
-  "version": 3.66,
+  "version": 3.67,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -3060,6 +3060,20 @@
       "config": {
         "additionalLights": true,
         "additionalPlusLights": true
+      },
+      "buttons": []
+    },
+	  {
+      "name": "Button Box Roma",
+      "vid": "2020",
+      "pid": "1151",
+      "type": "ButtonBox",
+      "configPageName": "buttonBoxPage",
+      "controllerList": null,
+      "config": {
+        "additionalLights": true,
+        "RGBLights": true,
+        "hasConfigPage": true
       },
       "buttons": []
     },
