@@ -1342,7 +1342,7 @@
 		  "gameInput": "flasher4way",
 		  "pressedButton": false,
 		  "enableInPausedGame": false
-		},
+		}
       ]
     },
 {
@@ -1394,7 +1394,7 @@
 		  "gameInput": "flasher4way",
 		  "pressedButton": false,
 		  "enableInPausedGame": false
-		},
+		}
       ]
     },
     {
@@ -3779,7 +3779,7 @@
           "KeyboardKey": "e",
           "truckVariableName": "StartStop",
           "pressedButton": false
-        },
+        }
 	  ]
     },
 	{
@@ -4676,7 +4676,7 @@
             "fuel": false,
             "tempWater": true,
             "oilPressure": true,
-			"battery": true,
+			"battery": true
           }
         }
       },
