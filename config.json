@@ -1,5 +1,5 @@
 {
-  "version": 3.67,
+  "version": 3.68,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -2411,15 +2411,6 @@
 		  "hasLights": true
 	  },
 	  "buttons": [
-		{
-		  "name": "horn",
-		  "btId": 1,
-		  "keyboardKey": "",
-		  "truckVariableName": "",
-		  "gameInput": "horn",
-		  "pressedButton": false,
-		  "enableInPausedGame": false
-		},
 		{
 		  "name": "cam1",
 		  "btId": 2,
