@@ -4898,6 +4898,19 @@
       },
       "buttons": []
     },
+	{
+	  "name": "Painel Leds D",
+	  "vid": "2020",
+	  "pid": "1039",
+	  "type": "ButtonBox",
+	  "configPageName": "buttonBoxPage",
+	  "controllerList": null,
+	  "config": {
+	    "additionalLights": true,
+	    "additionalPlusLights": true
+	  },
+	  "buttons": []
+	},
     {
       "name": "Radio PX",
       "vid": "2020",
