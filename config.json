@@ -3781,6 +3781,40 @@
 	  ]
     },
 	{
+	  "name": "Button Box Livorno",
+	  "vid": "2020",
+	  "pid": "0074",
+	  "type": "ButtonBox",
+	  "configPageName": "buttonBoxPage",
+	  "controllerList": null,
+	  "config": {
+	    "hasLights": true
+	  },
+	  "buttons": [
+	    {
+	     "name": "hazard_light",
+		"btId": 12,
+		"KeyboardKey": "f",
+		"truckVariableName": "HazardWarningLights",
+		"pressedButton": false
+	    },
+	    {
+	      "name": "eletrical_engine",
+	      "btId": 13,
+	      "KeyboardKey": "r",
+	      "truckVariableName": "ElectricOn",
+	      "pressedButton": false
+	    },
+	    {
+	      "name": "start_engine",
+	      "btId": 14,
+	      "KeyboardKey": "e",
+	      "truckVariableName": "ElectricStart",
+	      "pressedButton": false
+	    }
+	  ]
+	},
+	{
       "name": "Painel de Botões Scania NTG",
       "vid": "2020",
       "pid": "1053",
