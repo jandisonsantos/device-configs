@@ -3788,7 +3788,9 @@
 	  "configPageName": "buttonBoxPage",
 	  "controllerList": null,
 	  "config": {
-	    "hasLights": true
+	    "RGBLights": true,
+		"hasLights": true,
+        "hasConfigPage": true
 	  },
 	  "buttons": [
 	    {
