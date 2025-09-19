@@ -1,5 +1,5 @@
 {
-  "version": 3.70,
+  "version": 3.71,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -4144,7 +4144,18 @@
           "controllerList": null,
           "config": {
             "sleepThread": 100,
-            "additionalLights": false
+            "additionalLights": false,
+			"chaveDeSetaConfig": {
+	          "parkingLightsControl": true,
+	          "highBeamControl": true,
+	          "HighBeamOnOff": true,
+	          "blinkersControl": true,
+	          "wipersControl": true,
+	          "retarderControl": 0,
+	          "gearControl": false,
+			  "othersControl":  false,
+			  "sleepThread": 200
+	        }
           },
           "buttons": [
             {
