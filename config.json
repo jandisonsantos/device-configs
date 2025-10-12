@@ -3824,16 +3824,9 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": false,
-        "additionalLights": false,
-        "additionalPlusLights": false,
-        "RGBLights": false,
-        "buttonBoxConfig": {
-          "hasLights": true,
-          "additionalLights": false,
-          "additionalPlusLights": false,
-          "RGBLights": true
-        }
+        "hasLights": true,
+        "RGBLights": true,
+        "hasConfigPage": true
       },
       "buttons": [
         {
