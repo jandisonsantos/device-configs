@@ -1,5 +1,5 @@
 {
-  "version": 3.72,
+  "version": 3.73,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -3813,6 +3813,244 @@
           "KeyboardKey": "e",
           "truckVariableName": "ElectricStart",
           "pressedButton": false
+        }
+      ]
+    },
+    {
+      "name": "Button Box Hamburgo",
+      "vid": "2020",
+      "pid": "0075",
+      "type": "ButtonBox",
+      "configPageName": "buttonBoxPage",
+      "controllerList": null,
+      "config": {
+        "hasLights": false,
+        "additionalLights": false,
+        "additionalPlusLights": false,
+        "RGBLights": false,
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        }
+      },
+      "buttons": [
+        {
+          "name": "pisca_alerta",
+          "btId": "1",
+          "buttonType": "game",
+          "keyboardKey": "F",
+          "truckVariableName": "",
+          "gameInput": "flasher4way",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "cam1",
+          "btId": "3",
+          "buttonType": "game",
+          "keyboardKey": "1",
+          "truckVariableName": "",
+          "gameInput": "cam1",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "cam2",
+          "btId": "4",
+          "buttonType": "game",
+          "keyboardKey": "2",
+          "truckVariableName": "",
+          "gameInput": "cam2",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "cam_janela",
+          "btId": "5",
+          "buttonType": "keyboard",
+          "keyboardKey": "5",
+          "truckVariableName": "",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "luz_rotativa",
+          "btId": "6",
+          "buttonType": "game",
+          "keyboardKey": "O",
+          "truckVariableName": "",
+          "gameInput": "beacon",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "engate_reboque",
+          "btId": "7",
+          "buttonType": "game",
+          "keyboardKey": "T",
+          "truckVariableName": "",
+          "gameInput": "attach",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "eixo_caminhao",
+          "btId": "8",
+          "buttonType": "game",
+          "keyboardKey": "U",
+          "truckVariableName": "",
+          "gameInput": "liftaxle",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "eixo_reboque",
+          "btId": "9",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "liftaxlet",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "diferencial",
+          "btId": "10",
+          "buttonType": "game",
+          "keyboardKey": "V",
+          "truckVariableName": "",
+          "gameInput": "diflock",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "mapa",
+          "btId": "11",
+          "buttonType": "game",
+          "keyboardKey": "M",
+          "truckVariableName": "",
+          "gameInput": "navmap",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "enter",
+          "btId": "12",
+          "buttonType": "game",
+          "keyboardKey": "Enter",
+          "truckVariableName": "",
+          "gameInput": "activate",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "combustivel",
+          "btId": "13",
+          "buttonType": "game",
+          "keyboardKey": "Enter",
+          "truckVariableName": "",
+          "gameInput": "activate",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "ignicao_eletrica",
+          "btId": "14",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "ElectricOn",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "ignicao_partida",
+          "btId": "15",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "ElectricStart",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "fechar_janela_e",
+          "btId": "16",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "lwinclose",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "abrir_janela_e",
+          "btId": "17",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "lwinopen",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "fechar_janela_d",
+          "btId": "18",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "rwinclose",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "abrir_janela_d",
+          "btId": "19",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "rwinopen",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "subir_susp_frente",
+          "btId": "20",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "frontsuspup",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "descer_susp_frente",
+          "btId": "21",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "frontsuspdwn",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "reset_susp",
+          "btId": "22",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "suspreset",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "subir_susp_tras",
+          "btId": "23",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "rearsuspup",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "descer_susp_tras",
+          "btId": "24",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "rearsuspdwn",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "radio_px",
+          "btId": "25",
+          "buttonType": "keyboard",
+          "keyboardKey": "x",
+          "truckVariableName": "",
+          "gameInput": "",
+          "enableInPausedGame": false
         }
       ]
     },
