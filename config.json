@@ -1,5 +1,5 @@
 {
-  "version": 3.74,
+  "version": 3.75,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -4042,6 +4042,48 @@
           "buttonType": "keyboard",
           "keyboardKey": "x",
           "truckVariableName": "",
+          "gameInput": "",
+          "enableInPausedGame": false
+        }
+      ]
+    },
+    {
+      "name": "Button Box Colonia",
+      "vid": "2020",
+      "pid": "0076",
+      "type": "ButtonBox",
+      "configPageName": "buttonBoxPage",
+      "controllerList": null,
+      "config": {
+        "RGBLights": true,
+        "hasConfigPage": true,
+        "hasLights": true
+      },
+      "buttons": [
+        {
+          "name": "parking_light",
+          "btId": "12",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "ParkingLightsOn",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "low_beam",
+          "btId": "13",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "LowBeamsOn",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "parking_break",
+          "btId": "11",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "ParkBrakeOn",
           "gameInput": "",
           "enableInPausedGame": false
         }
