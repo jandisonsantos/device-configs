@@ -5272,6 +5272,16 @@
         "hasConfigPage": true
       },
       "buttons": []
+    },
+    {
+      "name": "Central de Manoplas",
+      "vid": "2020",
+      "pid": "1016",
+      "type": "Manopla",
+      "configPageName": "manoplaPage",
+      "controllerList": null,
+      "config": {},
+      "buttons": []
     }
   ]
 }
