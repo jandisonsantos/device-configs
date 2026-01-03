@@ -5282,6 +5282,30 @@
       "controllerList": null,
       "config": {},
       "buttons": []
+    },
+    {
+      "name": "Chave de Seta",
+      "vid": "2020",
+      "pid": "1055",
+      "type": "ChaveSeta",
+      "configPageName": "chaveDeSetaPage",
+      "controllerList": null,
+      "config": {
+        "hasConfigPage": true,
+        "sleepThread": 200,
+        "chaveDeSetaConfig": {
+          "parkingLightsControl": true,
+          "highBeamControl": true,
+          "HighBeamOnOff": true,
+          "blinkersControl": true,
+          "wipersControl": false,
+          "retarderControl": 0,
+          "gearControl": false,
+          "othersControl": false,
+          "sleepThread": 200
+        }
+      },
+      "buttons": []
     }
   ]
 }
