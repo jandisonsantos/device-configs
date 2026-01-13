@@ -1,5 +1,5 @@
 {
-  "version": 3.75,
+  "version": 3.76,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -5306,6 +5306,35 @@
         }
       },
       "buttons": []
+    },
+    {
+      "name": "Freio Estacionario",
+      "vid": "2020",
+      "pid": "1156",
+      "type": "ButtonBox",
+      "configPageName": "buttonBoxPage",
+      "controllerList": null,
+      "config": {},
+      "buttons": [
+        {
+          "name": "parking_break_down",
+          "btId": "1",
+          "buttonType": "app",
+          "keyboardKey": "Space",
+          "truckVariableName": "ParkBrakeDown",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "parking_break_up",
+          "btId": "2",
+          "buttonType": "app",
+          "keyboardKey": "Space",
+          "truckVariableName": "ParkBrakeUp",
+          "gameInput": "",
+          "enableInPausedGame": false
+        }
+      ]
     }
   ]
 }
