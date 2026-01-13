@@ -5318,7 +5318,7 @@
       "buttons": [
         {
           "name": "parking_break_down",
-          "btId": "1",
+          "btId": "2",
           "buttonType": "app",
           "keyboardKey": "Space",
           "truckVariableName": "ParkBrakeDown",
@@ -5327,7 +5327,7 @@
         },
         {
           "name": "parking_break_up",
-          "btId": "2",
+          "btId": "1",
           "buttonType": "app",
           "keyboardKey": "Space",
           "truckVariableName": "ParkBrakeUp",
