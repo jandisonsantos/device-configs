@@ -1,5 +1,5 @@
 {
-  "version": 3.77,
+  "version": 3.78,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -5335,6 +5335,46 @@
           "enableInPausedGame": false
         }
       ]
+    },
+    {
+      "name": "Painel Constelation 2.0",
+      "vid": "2020",
+      "pid": "1043",
+      "type": "ESPDashboard",
+      "configPageName": "dashboardPage",
+      "controllerList": null,
+      "config": {
+        "ESPDashboardConfig": {
+          "startAnimPage": 2,
+          "endAnimPage": 13,
+          "pausedPageScreen": 14,
+          "totalPages": 10,
+          "getBrightness": true,
+          "hasScreen": true,
+          "hasLights": true,
+          "gauges": 1,
+          "queue": true,
+          "pagesConfigs": {
+            "globalInfos": {
+              "clock": true,
+              "shifterSpeed": true,
+              "retarder": false,
+              "fuel": false,
+              "airPressure": false
+            }
+          },
+          "gaugesConfigs": {
+            "rpm": true,
+            "speed": true,
+            "speedLimit": 130,
+            "airPressure": true,
+            "fuel": true,
+            "tempWater": false,
+            "oilPressure": false
+          }
+        }
+      },
+      "buttons": []
     }
   ]
 }
