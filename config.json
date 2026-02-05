@@ -1,5 +1,5 @@
 {
-  "version": 3.78,
+  "version": 3.79,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -257,6 +257,41 @@
           "btId": 15,
           "KeyboardKey": "",
           "truckVariableName": "geardown",
+          "pressedButton": false
+        },
+        {
+          "name": "retarder1",
+          "btId": 18,
+          "KeyboardKey": "",
+          "truckVariableName": "retarder1",
+          "pressedButton": false
+        },
+        {
+          "name": "retarder2",
+          "btId": 19,
+          "KeyboardKey": "",
+          "truckVariableName": "retarder2",
+          "pressedButton": false
+        },
+        {
+          "name": "retarder3",
+          "btId": 20,
+          "KeyboardKey": "",
+          "truckVariableName": "retarder3",
+          "pressedButton": false
+        },
+        {
+          "name": "retarder4",
+          "btId": 21,
+          "KeyboardKey": "",
+          "truckVariableName": "retarder4",
+          "pressedButton": false
+        },
+        {
+          "name": "retarder5",
+          "btId": 22,
+          "KeyboardKey": "",
+          "truckVariableName": "retarder5",
           "pressedButton": false
         }
       ]
