@@ -1,5 +1,5 @@
 {
-  "version": 3.8,
+  "version": 3.81,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -5443,13 +5443,11 @@
           "enableInPausedGame": false
         },
         {
-          "name": "flasher4way",
+          "name": "hazard_light",
           "btId": 23,
-          "keyboardKey": "",
-          "truckVariableName": "",
-          "gameInput": "flasher4way",
-          "pressedButton": false,
-          "enableInPausedGame": false
+          "KeyboardKey": "f",
+          "truckVariableName": "HazardWarningLights",
+          "pressedButton": false
         },
         {
           "name": "parking_break",
