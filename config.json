@@ -1,5 +1,5 @@
 {
-  "version": 3.79,
+  "version": 3.8,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -5410,6 +5410,57 @@
         }
       },
       "buttons": []
+    },
+    {
+      "name": "Button Box Siena",
+      "vid": "2020",
+      "pid": "0077",
+      "type": "ButtonBox",
+      "configPageName": "buttonBoxPage",
+      "controllerList": null,
+      "config": {
+        "additionalLights": true,
+        "RGBLights": true,
+        "hasConfigPage": true
+      },
+      "buttons": [
+        {
+          "name": "eletrical_engine",
+          "btId": "16",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "ElectricOn",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "start_engine",
+          "btId": "17",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "ElectricStart",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "flasher4way",
+          "btId": 23,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "flasher4way",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "parking_break",
+          "btId": "22",
+          "buttonType": "game",
+          "keyboardKey": "Space",
+          "truckVariableName": "",
+          "gameInput": "parkingbrake",
+          "enableInPausedGame": false
+        }
+      ]
     }
   ]
 }
