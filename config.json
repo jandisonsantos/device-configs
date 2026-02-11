@@ -1,5 +1,5 @@
 {
-  "version": 3.82,
+  "version": 3.83,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -5457,6 +5457,46 @@
           "pressedButton": false
         }
       ]
+    },
+    {
+      "name": "Computador de Bordo 3.5",
+      "vid": "2020",
+      "pid": "1044",
+      "type": "ESPDashboard",
+      "configPageName": "dashboardPage",
+      "controllerList": null,
+      "config": {
+        "ESPDashboardConfig": {
+          "startAnimPage": 2,
+          "endAnimPage": 13,
+          "pausedPageScreen": 14,
+          "totalPages": 10,
+          "getBrightness": true,
+          "hasScreen": true,
+          "hasLights": true,
+          "gauges": 1,
+          "queue": true,
+          "pagesConfigs": {
+            "globalInfos": {
+              "clock": true,
+              "shifterSpeed": true,
+              "retarder": false,
+              "fuel": false,
+              "airPressure": false
+            }
+          },
+          "gaugesConfigs": {
+            "rpm": false,
+            "speed": true,
+            "speedLimit": 130,
+            "airPressure": false,
+            "fuel": false,
+            "tempWater": false,
+            "oilPressure": false
+          }
+        }
+      },
+      "buttons": []
     }
   ]
 }
