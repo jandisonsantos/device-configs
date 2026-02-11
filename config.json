@@ -5387,7 +5387,7 @@
           "getBrightness": true,
           "hasScreen": true,
           "hasLights": true,
-          "gauges": 1,
+          "gauges": 4,
           "queue": true,
           "pagesConfigs": {
             "globalInfos": {
