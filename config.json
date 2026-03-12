@@ -1,5 +1,5 @@
 {
-  "version": 3.83,
+  "version": 3.84,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -5497,6 +5497,127 @@
         }
       },
       "buttons": []
+    },
+    {
+      "name": "Volante Scania NTG 2.0",
+      "vid": "2020",
+      "pid": "1147",
+      "type": "ButtonBox",
+      "configPageName": "buttonBoxPage",
+      "controllerList": null,
+      "config": {
+        "hasConfigPage": true,
+        "hasLights": true
+      },
+      "buttons": [
+        {
+          "name": "cam1",
+          "btId": "4",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "cam1",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "cam2",
+          "btId": "7",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "cam2",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "advmouse",
+          "btId": 4,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "advmouse",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "nextDashboardScreen",
+          "btId": 5,
+          "keyboardKey": "",
+          "truckVariableName": "nextDashboardScreen",
+          "gameInput": "",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "enter",
+          "btId": 6,
+          "KeyboardKey": "enter",
+          "truckVariableName": "enter",
+          "pressedButton": false,
+          "enableInPausedGame": true
+        },
+        {
+          "name": "previousDashboardScreen",
+          "btId": "3",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "previousDashboardScreen",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "advpagen",
+          "btId": "2",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "advpagen",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "cruiectrlres",
+          "btId": "9",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "cruiectrlres",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "cruiectrl",
+          "btId": "10",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "cruiectrl",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "cruiectrlinc",
+          "btId": "11",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "cruiectrlinc",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "cruiectrldec",
+          "btId": "12",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "cruiectrldec",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "pause",
+          "btId": "1",
+          "buttonType": "game",
+          "keyboardKey": "F1",
+          "truckVariableName": "",
+          "gameInput": "advmouse",
+          "enableInPausedGame": false
+        }
+      ]
     }
   ]
 }
