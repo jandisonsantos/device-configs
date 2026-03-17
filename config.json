@@ -1,5 +1,5 @@
 {
-  "version": 3.84,
+  "version": 3.85,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -5615,6 +5615,75 @@
           "keyboardKey": "F1",
           "truckVariableName": "",
           "gameInput": "advmouse",
+          "enableInPausedGame": false
+        }
+      ]
+    },
+    {
+      "name": "Button Box Toledo",
+      "vid": "2020",
+      "pid": "0078",
+      "type": "ButtonBox",
+      "configPageName": "buttonBoxPage",
+      "controllerList": null,
+      "config": {
+        "additionalLights": true,
+        "RGBLights": true,
+        "hasConfigPage": true
+      },
+      "buttons": [
+        {
+          "name": "eletrical_engine",
+          "btId": "11",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "ElectricOn",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "start_engine",
+          "btId": "12",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "ElectricStart",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "flasher4way",
+          "btId": "22",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "flasher4way",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "parking_break",
+          "btId": "10",
+          "buttonType": "app",
+          "keyboardKey": "Space",
+          "truckVariableName": "ParkBrakeOn",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "parking_light",
+          "btId": "17",
+          "buttonType": "app",
+          "keyboardKey": "L",
+          "truckVariableName": "ParkingLightsOn",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "low_beam",
+          "btId": "18",
+          "buttonType": "app",
+          "keyboardKey": "L",
+          "truckVariableName": "LowBeamsOn",
+          "gameInput": "",
           "enableInPausedGame": false
         }
       ]
