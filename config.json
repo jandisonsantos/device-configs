@@ -1,5 +1,5 @@
 {
-  "version": 3.86,
+  "version": 3.87,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -3184,17 +3184,30 @@
       "buttons": [
         {
           "name": "eletrical_engine",
-          "btId": 24,
-          "KeyboardKey": "r",
+          "btId": "14",
+          "buttonType": "app",
+          "keyboardKey": "",
           "truckVariableName": "ElectricOn",
-          "pressedButton": false
+          "gameInput": "",
+          "enableInPausedGame": false
         },
         {
           "name": "parking_break",
-          "btId": 26,
-          "KeyboardKey": "space",
+          "btId": "20",
+          "buttonType": "app",
+          "keyboardKey": "",
           "truckVariableName": "ParkBrakeOn",
-          "pressedButton": false
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "engine",
+          "btId": "15",
+          "buttonType": "app",
+          "keyboardKey": "e",
+          "truckVariableName": "ElectricStart",
+          "gameInput": "",
+          "enableInPausedGame": false
         }
       ]
     },
