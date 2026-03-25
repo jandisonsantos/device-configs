@@ -1,5 +1,5 @@
 {
-  "version": 3.87,
+  "version": 3.88,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -5551,12 +5551,12 @@
           "enableInPausedGame": false
         },
         {
-          "name": "advmouse",
-          "btId": 4,
-          "keyboardKey": "",
+          "name": "horn",
+          "btId": "8",
+          "buttonType": "game",
+          "keyboardKey": "H",
           "truckVariableName": "",
-          "gameInput": "advmouse",
-          "pressedButton": false,
+          "gameInput": "horn",
           "enableInPausedGame": false
         },
         {
