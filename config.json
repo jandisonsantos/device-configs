@@ -1,5 +1,5 @@
 {
-  "version": 3.92,
+  "version": 3.93,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -5985,12 +5985,12 @@
           "enableInPausedGame": false
         },
         {
-          "name": "left_win_open",
+          "name": "right_win_open",
           "btId": "29",
           "buttonType": "game",
           "keyboardKey": "",
           "truckVariableName": "",
-          "gameInput": "lwinopen",
+          "gameInput": "rwinopen",
           "enableInPausedGame": false
         }
       ]
