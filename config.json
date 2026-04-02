@@ -1,5 +1,5 @@
 {
-  "version": 3.9,
+  "version": 3.91,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -5770,171 +5770,174 @@
         },
         {
           "name": "navmap",
-          "btId": 6,
+          "btId": "18",
+          "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "",
           "gameInput": "navmap",
-          "pressedButton": false,
           "enableInPausedGame": false
         },
         {
           "name": "motorbrake",
-          "btId": 9,
+          "btId": "5",
+          "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "",
           "gameInput": "motorbrake",
-          "pressedButton": false,
           "enableInPausedGame": false
         },
         {
           "name": "liftaxle",
-          "btId": 10,
+          "btId": "6",
+          "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "",
           "gameInput": "liftaxle",
-          "pressedButton": false,
-          "enableInPausedGame": false
-        },
-        {
-          "name": "horn",
-          "btId": 11,
-          "keyboardKey": "",
-          "truckVariableName": "",
-          "gameInput": "horn",
-          "pressedButton": false,
           "enableInPausedGame": false
         },
         {
           "name": "airhorn",
-          "btId": 12,
+          "btId": "19",
+          "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "",
           "gameInput": "airhorn",
-          "pressedButton": false,
           "enableInPausedGame": false
         },
         {
           "name": "liftaxlet",
-          "btId": 13,
+          "btId": "7",
+          "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "",
           "gameInput": "liftaxlet",
-          "pressedButton": false,
           "enableInPausedGame": false
         },
         {
           "name": "trailerbrake",
-          "btId": 14,
+          "btId": "8",
+          "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "",
           "gameInput": "trailerbrake",
-          "pressedButton": false,
           "enableInPausedGame": false
         },
         {
           "name": "suspreset",
-          "btId": 16,
+          "btId": "13",
+          "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "",
           "gameInput": "suspreset",
-          "pressedButton": false,
           "enableInPausedGame": false
         },
         {
           "name": "eletrical_engine",
-          "btId": 17,
-          "KeyboardKey": "r",
+          "btId": "27",
+          "buttonType": "app",
+          "keyboardKey": "",
           "truckVariableName": "ElectricOn",
-          "pressedButton": false
+          "gameInput": "",
+          "enableInPausedGame": false
         },
         {
           "name": "start_engine",
-          "btId": 18,
-          "KeyboardKey": "e",
+          "btId": "28",
+          "buttonType": "app",
+          "keyboardKey": "",
           "truckVariableName": "ElectricStart",
-          "pressedButton": false
+          "gameInput": "",
+          "enableInPausedGame": false
         },
         {
           "name": "frontsuspup",
-          "btId": 19,
+          "btId": "10",
+          "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "",
           "gameInput": "frontsuspup",
-          "pressedButton": false,
           "enableInPausedGame": false
         },
         {
           "name": "frontsuspdwn",
-          "btId": 20,
+          "btId": "14",
+          "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "",
           "gameInput": "frontsuspdwn",
-          "pressedButton": false,
           "enableInPausedGame": false
         },
         {
           "name": "rearsuspup",
-          "btId": 21,
+          "btId": "11",
+          "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "",
           "gameInput": "rearsuspup",
-          "pressedButton": false,
           "enableInPausedGame": false
         },
         {
           "name": "rearsuspdwn",
-          "btId": 22,
+          "btId": "15",
+          "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "",
           "gameInput": "rearsuspdwn",
-          "pressedButton": false,
           "enableInPausedGame": false
         },
         {
           "name": "DifferentialLock",
-          "btId": 23,
-          "KeyboardKey": "v",
+          "btId": "26",
+          "buttonType": "app",
+          "keyboardKey": "",
           "truckVariableName": "DifferentialLock",
-          "pressedButton": false
+          "gameInput": "",
+          "enableInPausedGame": false
         },
         {
           "name": "attach",
-          "btId": 24,
+          "btId": "21",
+          "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "",
           "gameInput": "attach",
-          "pressedButton": false,
           "enableInPausedGame": false
         },
         {
           "name": "beacon",
-          "btId": 25,
+          "btId": "22",
+          "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "",
           "gameInput": "beacon",
-          "pressedButton": false,
           "enableInPausedGame": false
         },
         {
           "name": "parking_break_up",
-          "btId": 26,
-          "KeyboardKey": "space",
+          "btId": "35",
+          "buttonType": "app",
+          "keyboardKey": "",
           "truckVariableName": "ParkBrakeUp",
-          "pressedButton": false
+          "gameInput": "",
+          "enableInPausedGame": false
         },
         {
           "name": "parking_break_down",
-          "btId": 27,
-          "KeyboardKey": "space",
+          "btId": "34",
+          "buttonType": "app",
+          "keyboardKey": "",
           "truckVariableName": "ParkBrakeDown",
-          "pressedButton": false
+          "gameInput": "",
+          "enableInPausedGame": false
         },
         {
           "name": "hazard_light",
-          "btId": 29,
-          "KeyboardKey": "f",
+          "btId": "36",
+          "buttonType": "app",
+          "keyboardKey": "",
           "truckVariableName": "HazardWarningLights",
-          "pressedButton": false
+          "gameInput": "",
+          "enableInPausedGame": false
         }
       ]
     }
