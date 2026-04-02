@@ -1,5 +1,5 @@
 {
-  "version": 3.88,
+  "version": 3.89,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -5707,6 +5707,225 @@
           "truckVariableName": "LowBeamsOn",
           "gameInput": "",
           "enableInPausedGame": false
+        }
+      ]
+    },
+    {
+      "name": "Painel de Botões Scania NTG",
+      "vid": "2020",
+      "pid": "1057",
+      "type": "ButtonBox",
+      "configPageName": "buttonBoxPage",
+      "controllerList": null,
+      "config": {
+        "additionalLights": true,
+        "RGBLights": true,
+        "hasConfigPage": true
+      },
+      "buttons": [
+        {
+          "name": "advpage1",
+          "btId": 1,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "advpage1",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "activate",
+          "btId": 2,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "activate",
+          "pressedButton": false,
+          "enableInPausedGame": true
+        },
+        {
+          "name": "advpage2",
+          "btId": 3,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "advpage2",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "advpage0",
+          "btId": 4,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "advpage0",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "navmap",
+          "btId": 6,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "navmap",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "motorbrake",
+          "btId": 9,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "motorbrake",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "liftaxle",
+          "btId": 10,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "liftaxle",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "horn",
+          "btId": 11,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "horn",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "airhorn",
+          "btId": 12,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "airhorn",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "liftaxlet",
+          "btId": 13,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "liftaxlet",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "trailerbrake",
+          "btId": 14,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "trailerbrake",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "suspreset",
+          "btId": 16,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "suspreset",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "eletrical_engine",
+          "btId": 17,
+          "KeyboardKey": "r",
+          "truckVariableName": "ElectricOn",
+          "pressedButton": false
+        },
+        {
+          "name": "start_engine",
+          "btId": 18,
+          "KeyboardKey": "e",
+          "truckVariableName": "ElectricStart",
+          "pressedButton": false
+        },
+        {
+          "name": "frontsuspup",
+          "btId": 19,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "frontsuspup",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "frontsuspdwn",
+          "btId": 20,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "frontsuspdwn",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "rearsuspup",
+          "btId": 21,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "rearsuspup",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "rearsuspdwn",
+          "btId": 22,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "rearsuspdwn",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "DifferentialLock",
+          "btId": 23,
+          "KeyboardKey": "v",
+          "truckVariableName": "DifferentialLock",
+          "pressedButton": false
+        },
+        {
+          "name": "attach",
+          "btId": 24,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "attach",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "beacon",
+          "btId": 25,
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "beacon",
+          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "parking_break_up",
+          "btId": 26,
+          "KeyboardKey": "space",
+          "truckVariableName": "ParkBrakeUp",
+          "pressedButton": false
+        },
+        {
+          "name": "parking_break_down",
+          "btId": 27,
+          "KeyboardKey": "space",
+          "truckVariableName": "ParkBrakeDown",
+          "pressedButton": false
+        },
+        {
+          "name": "hazard_light",
+          "btId": 29,
+          "KeyboardKey": "f",
+          "truckVariableName": "HazardWarningLights",
+          "pressedButton": false
         }
       ]
     }
