@@ -1,5 +1,5 @@
 {
-  "version": 3.91,
+  "version": 3.92,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -5937,6 +5937,60 @@
           "keyboardKey": "",
           "truckVariableName": "HazardWarningLights",
           "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "parking_light",
+          "btId": "37",
+          "buttonType": "app",
+          "keyboardKey": "L",
+          "truckVariableName": "ParkingLightsOn",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "low_beam",
+          "btId": "38",
+          "buttonType": "app",
+          "keyboardKey": "L",
+          "truckVariableName": "LowBeamsOn",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "left_win_close",
+          "btId": "32",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "lwinclose",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "left_win_open",
+          "btId": "31",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "lwinopen",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "right_win_close",
+          "btId": "30",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "rwinclose",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "left_win_open",
+          "btId": "29",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "lwinopen",
           "enableInPausedGame": false
         }
       ]
