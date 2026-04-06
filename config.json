@@ -1,5 +1,5 @@
 {
-  "version": 3.94,
+  "version": 3.95,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -6096,75 +6096,59 @@
         },
         {
           "name": "retarder1",
-          "btId": "14",
-          "buttonType": "game",
-          "keyboardKey": "",
-          "truckVariableName": "",
-          "gameInput": "retarder1",
-          "enableInPausedGame": false
+          "btId": 14,
+          "KeyboardKey": "",
+          "truckVariableName": "retarder1",
+          "pressedButton": false
         },
         {
           "name": "retarder2",
-          "btId": "15",
-          "buttonType": "game",
-          "keyboardKey": "",
-          "truckVariableName": "",
-          "gameInput": "retarder2",
-          "enableInPausedGame": false
+          "btId": 15,
+          "KeyboardKey": "",
+          "truckVariableName": "retarder2",
+          "pressedButton": false
+        },
+        {
+          "name": "retarder3",
+          "btId": 16,
+          "KeyboardKey": "",
+          "truckVariableName": "retarder3",
+          "pressedButton": false
+        },
+        {
+          "name": "retarder4",
+          "btId": 17,
+          "KeyboardKey": "",
+          "truckVariableName": "retarder4",
+          "pressedButton": false
+        },
+        {
+          "name": "retarder5",
+          "btId": 18,
+          "KeyboardKey": "",
+          "truckVariableName": "retarder5",
+          "pressedButton": false
         },
         {
           "name": "wipers_speed_1",
-          "btId": "16",
-          "buttonType": "game",
-          "keyboardKey": "",
-          "truckVariableName": "",
-          "gameInput": "retarder3",
-          "enableInPausedGame": false
+          "btId": 19,
+          "KeyboardKey": "p",
+          "truckVariableName": "WipersSpeed1",
+          "pressedButton": false
         },
         {
           "name": "wipers_speed_2",
-          "btId": "17",
-          "buttonType": "game",
-          "keyboardKey": "",
-          "truckVariableName": "",
-          "gameInput": "retarder4",
-          "enableInPausedGame": false
+          "btId": 20,
+          "KeyboardKey": "p",
+          "truckVariableName": "WipersSpeed2",
+          "pressedButton": false
         },
         {
           "name": "wipers_speed_3",
-          "btId": "18",
-          "buttonType": "game",
-          "keyboardKey": "",
-          "truckVariableName": "",
-          "gameInput": "retarder5",
-          "enableInPausedGame": false
-        },
-        {
-          "name": "wiper_1",
-          "btId": "19",
-          "buttonType": "game",
-          "keyboardKey": "",
-          "truckVariableName": "",
-          "gameInput": "wipers1",
-          "enableInPausedGame": false
-        },
-        {
-          "name": "wiper_2",
-          "btId": "20",
-          "buttonType": "game",
-          "keyboardKey": "",
-          "truckVariableName": "",
-          "gameInput": "wipers2",
-          "enableInPausedGame": false
-        },
-        {
-          "name": "wiper_3",
-          "btId": "21",
-          "buttonType": "game",
-          "keyboardKey": "",
-          "truckVariableName": "",
-          "gameInput": "wipers3",
-          "enableInPausedGame": false
+          "btId": 21,
+          "KeyboardKey": "p",
+          "truckVariableName": "WipersSpeed3",
+          "pressedButton": false
         }
       ]
     }
