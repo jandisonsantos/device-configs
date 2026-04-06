@@ -1,5 +1,5 @@
 {
-  "version": 3.95,
+  "version": 3.96,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -6011,7 +6011,7 @@
           "HighBeamOnOff": false,
           "blinkersControl": true,
           "wipersControl": true,
-          "retarderControl": 2,
+          "retarderControl": 5,
           "gearControl": true,
           "othersControl": false,
           "sleepThread": 200
