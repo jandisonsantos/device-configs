@@ -1,5 +1,5 @@
 {
-  "version": 3.93,
+  "version": 3.94,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -5991,6 +5991,179 @@
           "keyboardKey": "",
           "truckVariableName": "",
           "gameInput": "rwinopen",
+          "enableInPausedGame": false
+        }
+      ]
+    },
+    {
+      "name": "Chave de Seta Scania NTG 2.0",
+      "vid": "2020",
+      "pid": "1056",
+      "type": "ChaveSeta",
+      "configPageName": "chaveDeSetaPage",
+      "controllerList": null,
+      "config": {
+        "sleepThread": 200,
+        "additionalLights": false,
+        "chaveDeSetaConfig": {
+          "parkingLightsControl": false,
+          "highBeamControl": true,
+          "HighBeamOnOff": false,
+          "blinkersControl": true,
+          "wipersControl": true,
+          "retarderControl": 2,
+          "gearControl": true,
+          "othersControl": false,
+          "sleepThread": 200
+        }
+      },
+      "buttons": [
+        {
+          "name": "high_beam",
+          "btId": 1,
+          "KeyboardKey": "k",
+          "truckVariableName": "HighBeam",
+          "pressedButton": false
+        },
+        {
+          "name": "road_sign",
+          "btId": 2,
+          "KeyboardKey": "j",
+          "truckVariableName": "RoadSign",
+          "pressedButton": false
+        },
+        {
+          "name": "blinker_right",
+          "btId": 3,
+          "KeyboardKey": "[",
+          "truckVariableName": "BlinkerRight",
+          "pressedButton": false
+        },
+        {
+          "name": "blinker_left",
+          "btId": 4,
+          "KeyboardKey": "´",
+          "truckVariableName": "BlinkerLeft",
+          "pressedButton": false
+        },
+        {
+          "name": "drive",
+          "btId": 6,
+          "KeyboardKey": "",
+          "truckVariableName": "drive",
+          "pressedButton": false
+        },
+        {
+          "name": "reverse",
+          "btId": 8,
+          "KeyboardKey": "",
+          "truckVariableName": "reverse",
+          "pressedButton": false
+        },
+        {
+          "name": "transemi",
+          "btId": 9,
+          "KeyboardKey": "",
+          "truckVariableName": "transemi",
+          "pressedButton": false
+        },
+        {
+          "name": "geardown",
+          "btId": "11",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "geardown",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "gearup",
+          "btId": "10",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "gearup",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "retarderauto",
+          "btId": "13",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "retarderauto",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "retarder1",
+          "btId": "14",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "retarder1",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "retarder2",
+          "btId": "15",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "retarder2",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "wipers_speed_1",
+          "btId": "16",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "retarder3",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "wipers_speed_2",
+          "btId": "17",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "retarder4",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "wipers_speed_3",
+          "btId": "18",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "retarder5",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "wiper_1",
+          "btId": "19",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "wipers1",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "wiper_2",
+          "btId": "20",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "wipers2",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "wiper_3",
+          "btId": "21",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "wipers3",
           "enableInPausedGame": false
         }
       ]
