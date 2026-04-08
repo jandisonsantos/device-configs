@@ -1,5 +1,5 @@
 {
-  "version": 3.97,
+  "version": 3.98,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -2378,7 +2378,6 @@
       "vid": "2020",
       "pid": "1144",
       "type": "ButtonBox",
-      "subType": "Volante",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
@@ -2604,15 +2603,6 @@
           "truckVariableName": "",
           "gameInput": "cruiectrldec",
           "pressedButton": false,
-          "enableInPausedGame": false
-        },
-        {
-          "name": "horn",
-          "btId": "1",
-          "buttonType": "game",
-          "keyboardKey": "H",
-          "truckVariableName": "",
-          "gameInput": "horn",
           "enableInPausedGame": false
         }
       ]
