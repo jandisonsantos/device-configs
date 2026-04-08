@@ -1,5 +1,5 @@
 {
-  "version": 3.96,
+  "version": 3.97,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -2266,7 +2266,7 @@
       "buttons": []
     },
     {
-      "name": "Volante Scania NTG",
+      "name": "Volante Scania NTG Super",
       "vid": "2020",
       "pid": "1146",
       "type": "ButtonBox",
