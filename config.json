@@ -1,5 +1,5 @@
 {
-  "version": 3.97,
+  "version": 3.98,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -2604,15 +2604,6 @@
           "truckVariableName": "",
           "gameInput": "cruiectrldec",
           "pressedButton": false,
-          "enableInPausedGame": false
-        },
-        {
-          "name": "horn",
-          "btId": "1",
-          "buttonType": "game",
-          "keyboardKey": "H",
-          "truckVariableName": "",
-          "gameInput": "horn",
           "enableInPausedGame": false
         }
       ]
