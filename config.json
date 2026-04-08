@@ -8,8 +8,8 @@
       "type": "Dashboard",
       "configPageName": "dashboardPage",
       "controllerList": null,
-      "config": null,
-      "buttons": null
+      "config": {},
+      "buttons": []
     },
     {
       "name": "Chave de Seta",
@@ -33,7 +33,7 @@
           "sleepThread": 200
         }
       },
-      "buttons": null
+      "buttons": []
     },
     {
       "name": "Controle de Suspensão / Manopla Scania",
@@ -42,8 +42,8 @@
       "type": "Manopla",
       "configPageName": "manoplaPage",
       "controllerList": null,
-      "config": null,
-      "buttons": null
+      "config": {},
+      "buttons": []
     },
     {
       "name": "Chave de Seta Scania",
@@ -403,7 +403,6 @@
           "truckVariableName": "retarder2",
           "pressedButton": false
         },
-
         {
           "name": "wipers_speed_1",
           "btId": 15,
@@ -543,7 +542,7 @@
         "sleepThread": 100,
         "additionalLights": false
       },
-      "buttons": null
+      "buttons": []
     },
     {
       "name": "Manopla Scania",
@@ -552,8 +551,8 @@
       "type": "Manopla",
       "configPageName": "manoplaPage",
       "controllerList": null,
-      "config": null,
-      "buttons": null
+      "config": {},
+      "buttons": []
     },
     {
       "name": "Velocimetro",
@@ -562,8 +561,8 @@
       "type": "Dashboard",
       "configPageName": "manoplaPage",
       "controllerList": null,
-      "config": null,
-      "buttons": null
+      "config": {},
+      "buttons": []
     },
     {
       "name": "Manopla Eaton Fuller",
@@ -572,8 +571,8 @@
       "type": "Manopla",
       "configPageName": "manoplaPage",
       "controllerList": null,
-      "config": null,
-      "buttons": null
+      "config": {},
+      "buttons": []
     },
     {
       "name": "H Shifter Volvo",
@@ -582,8 +581,8 @@
       "type": "Manopla",
       "configPageName": "manoplaPage",
       "controllerList": null,
-      "config": null,
-      "buttons": null
+      "config": {},
+      "buttons": []
     },
     {
       "name": "H Shifter Scania",
@@ -592,8 +591,8 @@
       "type": "Manopla",
       "configPageName": "manoplaPage",
       "controllerList": null,
-      "config": null,
-      "buttons": null
+      "config": {},
+      "buttons": []
     },
     {
       "name": "I-Shift Volvo",
@@ -624,7 +623,7 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": null,
+      "config": {},
       "buttons": [
         {
           "name": "change_shifterType",
@@ -690,8 +689,8 @@
       "type": "Manopla",
       "configPageName": "manoplaPage",
       "controllerList": null,
-      "config": null,
-      "buttons": null
+      "config": {},
+      "buttons": []
     },
     {
       "name": "OptCruise Scania",
@@ -700,7 +699,7 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": null,
+      "config": {},
       "buttons": [
         {
           "name": "retarder_level_1",
@@ -751,7 +750,7 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": null,
+      "config": {},
       "buttons": []
     },
     {
@@ -1067,7 +1066,7 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": null,
+      "config": {},
       "buttons": []
     },
     {
@@ -1336,7 +1335,7 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": null,
+      "config": {},
       "buttons": [
         {
           "name": "parking_break",
@@ -1638,7 +1637,7 @@
       "type": "Dashboard",
       "configPageName": "dashboardPage",
       "controllerList": null,
-      "config": null,
+      "config": {},
       "buttons": []
     },
     {
@@ -1647,37 +1646,8 @@
       "pid": "0019",
       "type": "ReceptorWifi",
       "configPageName": "receptorWifiPage",
-      "controllerList": [
-        {
-          "name": "Button Box Singapura",
-          "vid": "2020",
-          "pid": "0019",
-          "type": "ButtonBox",
-          "configPageName": null,
-          "controllerList": null,
-          "config": {
-            "sleepThread": 0,
-            "additionalLights": true
-          },
-          "buttons": [
-            {
-              "name": "parking_break",
-              "btId": 12,
-              "KeyboardKey": "space",
-              "truckVariableName": "ParkBrakeOn",
-              "pressedButton": false
-            },
-            {
-              "name": "eletrical_engine",
-              "btId": 13,
-              "KeyboardKey": "r",
-              "truckVariableName": "ElectricOn",
-              "pressedButton": false
-            }
-          ]
-        }
-      ],
-      "config": null,
+      "controllerList": null,
+      "config": {},
       "buttons": []
     },
     {
@@ -1685,7 +1655,7 @@
       "vid": "2020",
       "pid": "0119",
       "type": "ButtonBox",
-      "configPageName": null,
+      "configPageName": "",
       "controllerList": null,
       "config": {
         "RGBLights": true,
@@ -2236,142 +2206,8 @@
       "pid": "0042",
       "type": "ReceptorWifi",
       "configPageName": "receptorWifiPage",
-      "controllerList": [
-        {
-          "name": "Button Box Berlim Wireless",
-          "vid": "2020",
-          "pid": "0012",
-          "type": "ButtonBox",
-          "configPageName": null,
-          "controllerList": null,
-          "config": {
-            "sleepThread": 0,
-            "additionalLights": false
-          },
-          "buttons": [
-            {
-              "name": "parking_break",
-              "btId": 12,
-              "KeyboardKey": "space",
-              "truckVariableName": "ParkBrakeOn",
-              "pressedButton": false
-            },
-            {
-              "name": "eletrical_engine",
-              "btId": 10,
-              "KeyboardKey": "r",
-              "truckVariableName": "ElectricOn",
-              "pressedButton": false
-            }
-          ]
-        },
-        {
-          "name": "Chave de Seta",
-          "vid": "2020",
-          "pid": "1013",
-          "type": "ChaveSeta",
-          "configPageName": null,
-          "controllerList": null,
-          "config": {
-            "sleepThread": 100,
-            "additionalLights": false
-          },
-          "buttons": [
-            {
-              "name": "parking_light",
-              "btId": 17,
-              "KeyboardKey": "l",
-              "truckVariableName": "ParkingLight",
-              "pressedButton": false
-            },
-            {
-              "name": "low_beam",
-              "btId": 18,
-              "KeyboardKey": "l",
-              "truckVariableName": "LowBeam",
-              "pressedButton": false
-            },
-            {
-              "name": "high_beam",
-              "btId": 19,
-              "KeyboardKey": "k",
-              "truckVariableName": "HighBeam",
-              "pressedButton": false
-            },
-            {
-              "name": "road_sign",
-              "btId": 20,
-              "KeyboardKey": "j",
-              "truckVariableName": "RoadSign",
-              "pressedButton": false
-            },
-            {
-              "name": "aux_light",
-              "btId": 30,
-              "KeyboardKey": "0",
-              "truckVariableName": "AuxLight",
-              "pressedButton": false
-            },
-            {
-              "name": "blinker_left",
-              "btId": 22,
-              "KeyboardKey": "´",
-              "truckVariableName": "BlinkerLeft",
-              "pressedButton": false
-            },
-            {
-              "name": "blinker_right",
-              "btId": 23,
-              "KeyboardKey": "[",
-              "truckVariableName": "BlinkerRight",
-              "pressedButton": false
-            },
-            {
-              "name": "wipers_speed_1",
-              "btId": 24,
-              "KeyboardKey": "p",
-              "truckVariableName": "WipersSpeed1",
-              "pressedButton": false
-            },
-            {
-              "name": "wipers_speed_2",
-              "btId": 25,
-              "KeyboardKey": "p",
-              "truckVariableName": "WipersSpeed2",
-              "pressedButton": false
-            },
-            {
-              "name": "wipers_speed_3",
-              "btId": 26,
-              "KeyboardKey": "p",
-              "truckVariableName": "WipersSpeed3",
-              "pressedButton": false
-            },
-            {
-              "name": "splash",
-              "btId": 27,
-              "KeyboardKey": "b",
-              "truckVariableName": "Splash",
-              "pressedButton": false
-            },
-            {
-              "name": "rear_wiper",
-              "btId": 28,
-              "KeyboardKey": "z",
-              "truckVariableName": "RearWiper",
-              "pressedButton": false
-            },
-            {
-              "name": "rear_splash",
-              "btId": 29,
-              "KeyboardKey": "i",
-              "truckVariableName": "RearSplash",
-              "pressedButton": false
-            }
-          ]
-        }
-      ],
-      "config": null,
+      "controllerList": null,
+      "config": {},
       "buttons": []
     },
     {
@@ -2379,7 +2215,6 @@
       "vid": "2020",
       "pid": "1144",
       "type": "ButtonBox",
-      "subType": "Volante",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
@@ -2426,30 +2261,8 @@
       "pid": "1145",
       "type": "ReceptorWifi",
       "configPageName": "receptorWifiPage",
-      "controllerList": [
-        {
-          "name": "Volante Scania",
-          "vid": "2020",
-          "pid": "2245",
-          "type": "ButtonBox",
-          "subType": "Volante",
-          "configPageName": null,
-          "controllerList": null,
-          "config": {
-            "hasLights": false
-          },
-          "buttons": [
-            {
-              "name": "next_screen",
-              "btId": 1,
-              "KeyboardKey": "",
-              "truckVariableName": "nextDashboardScreen",
-              "pressedButton": false
-            }
-          ]
-        }
-      ],
-      "config": null,
+      "controllerList": null,
+      "config": {},
       "buttons": []
     },
     {
@@ -2606,6 +2419,15 @@
           "gameInput": "cruiectrldec",
           "pressedButton": false,
           "enableInPausedGame": false
+        },
+        {
+          "name": "horn",
+          "btId": "1",
+          "buttonType": "game",
+          "keyboardKey": "H",
+          "truckVariableName": "",
+          "gameInput": "horn",
+          "enableInPausedGame": false
         }
       ]
     },
@@ -2699,44 +2521,8 @@
       "pid": "0044",
       "type": "ReceptorWifi",
       "configPageName": "receptorWifiPage",
-      "controllerList": [
-        {
-          "name": "Button Box Washington Wireless",
-          "vid": "2020",
-          "pid": "0144",
-          "type": "ButtonBox",
-          "configPageName": null,
-          "controllerList": null,
-          "config": {
-            "sleepThread": 0,
-            "additionalLights": true
-          },
-          "buttons": [
-            {
-              "name": "parking_break_down",
-              "btId": 12,
-              "KeyboardKey": "space",
-              "truckVariableName": "ParkBrakeDown",
-              "pressedButton": false
-            },
-            {
-              "name": "parking_break_up",
-              "btId": 11,
-              "KeyboardKey": "space",
-              "truckVariableName": "ParkBrakeUp",
-              "pressedButton": false
-            },
-            {
-              "name": "eletrical_engine",
-              "btId": 14,
-              "KeyboardKey": "r",
-              "truckVariableName": "ElectricOn",
-              "pressedButton": false
-            }
-          ]
-        }
-      ],
-      "config": null,
+      "controllerList": null,
+      "config": {},
       "buttons": []
     },
     {
@@ -2971,127 +2757,8 @@
       "pid": "0050",
       "type": "ReceptorWifi",
       "configPageName": "receptorWifiPage",
-      "controllerList": [
-        {
-          "name": "Button Box Macau",
-          "vid": "2020",
-          "pid": "0050",
-          "type": "ButtonBox",
-          "configPageName": null,
-          "controllerList": null,
-          "config": {
-            "sleepThread": 0,
-            "additionalLights": false
-          },
-          "buttons": []
-        },
-        {
-          "name": "Chave de Seta",
-          "vid": "2020",
-          "pid": "1013",
-          "type": "ChaveSeta",
-          "configPageName": null,
-          "controllerList": null,
-          "config": {
-            "sleepThread": 100,
-            "additionalLights": false
-          },
-          "buttons": [
-            {
-              "name": "parking_light",
-              "btId": 18,
-              "KeyboardKey": "l",
-              "truckVariableName": "ParkingLight",
-              "pressedButton": false
-            },
-            {
-              "name": "low_beam",
-              "btId": 19,
-              "KeyboardKey": "l",
-              "truckVariableName": "LowBeam",
-              "pressedButton": false
-            },
-            {
-              "name": "high_beam",
-              "btId": 20,
-              "KeyboardKey": "k",
-              "truckVariableName": "HighBeam",
-              "pressedButton": false
-            },
-            {
-              "name": "road_sign",
-              "btId": 21,
-              "KeyboardKey": "j",
-              "truckVariableName": "RoadSign",
-              "pressedButton": false
-            },
-            {
-              "name": "aux_light",
-              "btId": 22,
-              "KeyboardKey": "0",
-              "truckVariableName": "AuxLight",
-              "pressedButton": false
-            },
-            {
-              "name": "blinker_left",
-              "btId": 23,
-              "KeyboardKey": "´",
-              "truckVariableName": "BlinkerLeft",
-              "pressedButton": false
-            },
-            {
-              "name": "blinker_right",
-              "btId": 24,
-              "KeyboardKey": "[",
-              "truckVariableName": "BlinkerRight",
-              "pressedButton": false
-            },
-            {
-              "name": "wipers_speed_1",
-              "btId": 25,
-              "KeyboardKey": "p",
-              "truckVariableName": "WipersSpeed1",
-              "pressedButton": false
-            },
-            {
-              "name": "wipers_speed_2",
-              "btId": 26,
-              "KeyboardKey": "p",
-              "truckVariableName": "WipersSpeed2",
-              "pressedButton": false
-            },
-            {
-              "name": "wipers_speed_3",
-              "btId": 27,
-              "KeyboardKey": "p",
-              "truckVariableName": "WipersSpeed3",
-              "pressedButton": false
-            },
-            {
-              "name": "splash",
-              "btId": 28,
-              "KeyboardKey": "b",
-              "truckVariableName": "Splash",
-              "pressedButton": false
-            },
-            {
-              "name": "rear_wiper",
-              "btId": 29,
-              "KeyboardKey": "z",
-              "truckVariableName": "RearWiper",
-              "pressedButton": false
-            },
-            {
-              "name": "rear_splash",
-              "btId": 30,
-              "KeyboardKey": "i",
-              "truckVariableName": "RearSplash",
-              "pressedButton": false
-            }
-          ]
-        }
-      ],
-      "config": null,
+      "controllerList": null,
+      "config": {},
       "buttons": []
     },
     {
@@ -4446,7 +4113,7 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": null,
+      "config": {},
       "buttons": [
         {
           "name": "eletrical_engine",
@@ -4464,7 +4131,7 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": null,
+      "config": {},
       "buttons": []
     },
     {
@@ -4473,169 +4140,7 @@
       "pid": "1143",
       "type": "ReceptorWifi",
       "configPageName": "receptorWifiPage",
-      "controllerList": [
-        {
-          "name": "Chave de Seta",
-          "vid": "2020",
-          "pid": "1013",
-          "type": "ChaveSeta",
-          "configPageName": null,
-          "controllerList": null,
-          "config": {
-            "sleepThread": 100,
-            "additionalLights": false,
-            "chaveDeSetaConfig": {
-              "parkingLightsControl": true,
-              "highBeamControl": true,
-              "HighBeamOnOff": true,
-              "blinkersControl": true,
-              "wipersControl": true,
-              "retarderControl": 0,
-              "gearControl": false,
-              "othersControl": false,
-              "sleepThread": 200
-            }
-          },
-          "buttons": [
-            {
-              "name": "parking_light",
-              "btId": 1,
-              "KeyboardKey": "l",
-              "truckVariableName": "ParkingLight",
-              "pressedButton": false
-            },
-            {
-              "name": "low_beam",
-              "btId": 2,
-              "KeyboardKey": "l",
-              "truckVariableName": "LowBeam",
-              "pressedButton": false
-            },
-            {
-              "name": "high_beam",
-              "btId": 3,
-              "KeyboardKey": "k",
-              "truckVariableName": "HighBeam",
-              "pressedButton": false
-            },
-            {
-              "name": "road_sign",
-              "btId": 4,
-              "KeyboardKey": "j",
-              "truckVariableName": "RoadSign",
-              "pressedButton": false
-            },
-            {
-              "name": "aux_light",
-              "btId": 5,
-              "KeyboardKey": "0",
-              "truckVariableName": "AuxLight",
-              "pressedButton": false
-            },
-            {
-              "name": "blinker_left",
-              "btId": 6,
-              "KeyboardKey": "´",
-              "truckVariableName": "BlinkerLeft",
-              "pressedButton": false
-            },
-            {
-              "name": "blinker_right",
-              "btId": 7,
-              "KeyboardKey": "[",
-              "truckVariableName": "BlinkerRight",
-              "pressedButton": false
-            },
-            {
-              "name": "wipers_speed_1",
-              "btId": 8,
-              "KeyboardKey": "p",
-              "truckVariableName": "WipersSpeed1",
-              "pressedButton": false
-            },
-            {
-              "name": "wipers_speed_2",
-              "btId": 9,
-              "KeyboardKey": "p",
-              "truckVariableName": "WipersSpeed2",
-              "pressedButton": false
-            },
-            {
-              "name": "wipers_speed_3",
-              "btId": 10,
-              "KeyboardKey": "p",
-              "truckVariableName": "WipersSpeed3",
-              "pressedButton": false
-            },
-            {
-              "name": "splash",
-              "btId": 11,
-              "KeyboardKey": "b",
-              "truckVariableName": "Splash",
-              "pressedButton": false
-            },
-            {
-              "name": "rear_wiper",
-              "btId": 12,
-              "KeyboardKey": "z",
-              "truckVariableName": "RearWiper",
-              "pressedButton": false
-            },
-            {
-              "name": "rear_splash",
-              "btId": 13,
-              "KeyboardKey": "i",
-              "truckVariableName": "RearSplash",
-              "pressedButton": false
-            }
-          ]
-        },
-        {
-          "name": "Volante Multifuncional",
-          "vid": "2020",
-          "pid": "1144",
-          "type": "ButtonBox",
-          "configPageName": "buttonBoxPage",
-          "controllerList": null,
-          "config": {
-            "hasLights": true,
-            "RGBLights": true,
-            "hasConfigPage": true
-          },
-          "buttons": [
-            {
-              "name": "previous_screen",
-              "btId": 16,
-              "KeyboardKey": "",
-              "truckVariableName": "previousDashboardScreen",
-              "pressedButton": false
-            },
-            {
-              "name": "enter",
-              "btId": 17,
-              "KeyboardKey": "enter",
-              "truckVariableName": "enter",
-              "pressedButton": false,
-              "enableInPausedGame": true
-            },
-            {
-              "name": "next_screen",
-              "btId": 18,
-              "KeyboardKey": "",
-              "truckVariableName": "nextDashboardScreen",
-              "pressedButton": false
-            },
-            {
-              "name": "escape",
-              "btId": 30,
-              "KeyboardKey": "escape",
-              "truckVariableName": "",
-              "pressedButton": false,
-              "enableInPausedGame": true
-            }
-          ]
-        }
-      ],
+      "controllerList": null,
       "config": {
         "hasLights": true,
         "RGBLights": true
@@ -4649,7 +4154,7 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": null,
+      "config": {},
       "buttons": [
         {
           "name": "eletrical_engine",
@@ -4674,7 +4179,7 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": null,
+      "config": {},
       "buttons": [
         {
           "name": "eletrical_engine",
@@ -4700,7 +4205,7 @@
       "type": "Dashboard",
       "configPageName": "dashboardPage",
       "controllerList": null,
-      "config": null,
+      "config": {},
       "buttons": []
     },
     {
@@ -4836,7 +4341,6 @@
       },
       "buttons": []
     },
-
     {
       "name": "Painel Constelation",
       "vid": "2020",
@@ -5073,7 +4577,7 @@
       "type": "Dashboard",
       "configPageName": "dashboardPage",
       "controllerList": null,
-      "config": null,
+      "config": {},
       "buttons": []
     },
     {
@@ -5304,7 +4808,7 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": null,
+      "config": {},
       "buttons": []
     },
     {
@@ -5314,7 +4818,7 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": null,
+      "config": {},
       "buttons": [
         {
           "name": "talk",
