@@ -1,5 +1,5 @@
 {
-  "version": 3.98,
+  "version": 3.99,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -2519,10 +2519,10 @@
         {
           "name": "advpagen",
           "btId": 8,
-          "keyboardKey": "",
+          "buttonType": "game",
+          "keyboardKey": "H",
           "truckVariableName": "",
-          "gameInput": "advpagen",
-          "pressedButton": false,
+          "gameInput": "horn",
           "enableInPausedGame": false
         },
         {
