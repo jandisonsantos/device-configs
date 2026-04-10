@@ -1,5 +1,5 @@
 {
-  "version": 3.99,
+  "version": 4,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -2464,30 +2464,30 @@
       },
       "buttons": [
         {
-          "name": "cam1",
-          "btId": 2,
-          "keyboardKey": "",
-          "truckVariableName": "",
-          "gameInput": "cam1",
-          "pressedButton": false,
-          "enableInPausedGame": false
-        },
-        {
-          "name": "cam2",
-          "btId": 3,
-          "keyboardKey": "",
-          "truckVariableName": "",
-          "gameInput": "cam2",
-          "pressedButton": false,
-          "enableInPausedGame": false
-        },
-        {
           "name": "advmouse",
-          "btId": 4,
+          "btId": "1",
+          "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "",
           "gameInput": "advmouse",
-          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "previousDashboardScreen",
+          "btId": "3",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "previousDashboardScreen",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "cam1",
+          "btId": "4",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "cam1",
           "enableInPausedGame": false
         },
         {
@@ -2508,12 +2508,12 @@
           "enableInPausedGame": true
         },
         {
-          "name": "previousDashboardScreen",
-          "btId": 7,
+          "name": "cam2",
+          "btId": "7",
+          "buttonType": "app",
           "keyboardKey": "",
-          "truckVariableName": "previousDashboardScreen",
-          "gameInput": "",
-          "pressedButton": false,
+          "truckVariableName": "",
+          "gameInput": "cam2",
           "enableInPausedGame": false
         },
         {
@@ -2526,84 +2526,84 @@
           "enableInPausedGame": false
         },
         {
-          "name": "radio",
-          "btId": 9,
-          "keyboardKey": "",
-          "truckVariableName": "",
-          "gameInput": "radio",
-          "pressedButton": false,
-          "enableInPausedGame": false
-        },
-        {
-          "name": "radiodown",
-          "btId": 12,
-          "keyboardKey": "",
-          "truckVariableName": "",
-          "gameInput": "radiodown",
-          "pressedButton": false,
-          "enableInPausedGame": false
-        },
-        {
-          "name": "radioup",
-          "btId": 13,
-          "keyboardKey": "",
-          "truckVariableName": "",
-          "gameInput": "radioup",
-          "pressedButton": false,
-          "enableInPausedGame": false
-        },
-        {
-          "name": "radionext",
-          "btId": 14,
-          "keyboardKey": "",
-          "truckVariableName": "",
-          "gameInput": "radionext",
-          "pressedButton": false,
-          "enableInPausedGame": false
-        },
-        {
-          "name": "radioprev",
-          "btId": 15,
-          "keyboardKey": "",
-          "truckVariableName": "",
-          "gameInput": "radioprev",
-          "pressedButton": false,
-          "enableInPausedGame": false
-        },
-        {
           "name": "cruiectrlres",
-          "btId": 16,
+          "btId": "9",
+          "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "",
           "gameInput": "cruiectrlres",
-          "pressedButton": false,
           "enableInPausedGame": false
         },
         {
           "name": "cruiectrl",
-          "btId": 17,
+          "btId": "10",
+          "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "",
           "gameInput": "cruiectrl",
-          "pressedButton": false,
           "enableInPausedGame": false
         },
         {
           "name": "cruiectrlinc",
-          "btId": 20,
+          "btId": "11",
+          "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "",
           "gameInput": "cruiectrlinc",
-          "pressedButton": false,
           "enableInPausedGame": false
         },
         {
           "name": "cruiectrldec",
-          "btId": 21,
+          "btId": "12",
+          "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "",
           "gameInput": "cruiectrldec",
-          "pressedButton": false,
+          "enableInPausedGame": false
+        },
+        {
+          "name": "radioup",
+          "btId": "21",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "radioup",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "radioprev",
+          "btId": "22",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "radioprev",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "radio",
+          "btId": "23",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "radio",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "radionext",
+          "btId": "24",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "radionext",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "radiodown",
+          "btId": "25",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "radiodown",
           "enableInPausedGame": false
         }
       ]
