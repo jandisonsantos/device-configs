@@ -1,9 +1,15 @@
 ;aiu;
 
+[CentralDeControles2076]
+Name=Central de Controles 2.0.76
+URL=https://github.com/jandisonsantos/central_de_controles/releases/download/v2.0.76/cargo_simuladores_central_controles_2.0.76.exe
+Size=0
+ServerFileName=cargo_simuladores_central_controles_2.0.76.exe
+Version=2.0.76
+
 [CentralDeControles2075]
 Name=Central de Controles 2.0.75
 URL=https://github.com/jandisonsantos/central_de_controles/releases/download/v2.0.75/cargo_simuladores_central_controles_2.0.75.exe
-Size=SEU_TAMANHO_AQUI
+Size=0
 ServerFileName=cargo_simuladores_central_controles_2.0.75.exe
 Version=2.0.75
-Description=Versão base com updater.
