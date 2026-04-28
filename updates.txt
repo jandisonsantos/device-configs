@@ -2,9 +2,10 @@
 
 [Update1]
 Name=Central de controles 2.0.76
-URL=https://github.com/jandisonsantos/central_de_controles/releases/download/v2.0.76/cargo_simuladores_central_controles_2.0.76.exe
+Description=Teste de atualizacao automatica
+URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.0.76/cargo_simuladores_central_controles_2.0.76.exe
 Size=74591232
 ServerFileName=cargo_simuladores_central_controles_2.0.76.exe
 FilePath=[APPDIR]ChaveDeSetaETS2.exe
 Version=2.0.76
-Description=Teste de atualizacao automatica.
+Replaces=All
