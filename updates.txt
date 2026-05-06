@@ -1,11 +1,11 @@
 ;aiu;
 
 [Update1]
-Name=Central de controles 2.0.83
-Description=Sistema de atualizacao automatica
-URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.0.83/cargo_simuladores_central_controles_2.0.83.exe
-Size=75536845
-ServerFileName=cargo_simuladores_central_controles_2.0.83.exe
+Name=Central de controles 2.0.84
+Description=corrigido problema de deteccao de jogo aberto ou minimizado
+URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.0.84/cargo_simuladores_central_controles_2.0.84.exe
+Size=75536585
+ServerFileName=cargo_simuladores_central_controles_2.0.84.exe
 FilePath=[APPDIR]ChaveDeSetaETS2.exe
-Version=2.0.83
+Version=2.0.84
 Replaces=All
