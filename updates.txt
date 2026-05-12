@@ -1,11 +1,11 @@
 ;aiu;
 
 [Update1]
-Name=Central de controles 2.0.85
-Description=ajuste na deteccao de jogo aberto
-URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.0.85/cargo_simuladores_central_controles_2.0.85.exe
-Size=75538067
-ServerFileName=cargo_simuladores_central_controles_2.0.85.exe
+Name=Central de controles 2.0.86
+Description=correcao na deteccao de jogo aberto e fechado. correcao ao iniciar os dados da telemetria do jogo.
+URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.0.86/cargo_simuladores_central_controles_2.0.86.exe
+Size=75541647
+ServerFileName=cargo_simuladores_central_controles_2.0.86.exe
 FilePath=[APPDIR]ChaveDeSetaETS2.exe
-Version=2.0.85
+Version=2.0.86
 Replaces=All
