@@ -1,5 +1,5 @@
 {
-  "version": 4.02,
+  "version": 4.03,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -1388,12 +1388,12 @@
           "pressedButton": false
         },
         {
-          "name": "flasher4way",
-          "btId": 23,
+          "name": "alerta",
+          "btId": "23",
           "buttonType": "app",
           "keyboardKey": "F",
           "truckVariableName": "HazardWarningLights",
-          "gameInput": "flasher4way",
+          "gameInput": "",
           "enableInPausedGame": false
         }
       ]
