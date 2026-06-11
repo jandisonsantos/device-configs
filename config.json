@@ -1,5 +1,5 @@
 {
-  "version": 4.03,
+  "version": 4.04,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -4648,7 +4648,14 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": {},
+      "config": {
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
+      },
       "buttons": [
         {
           "name": "eletrical_engine",
@@ -4673,7 +4680,14 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": {},
+      "config": {
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
+      },
       "buttons": [
         {
           "name": "eletrical_engine",
