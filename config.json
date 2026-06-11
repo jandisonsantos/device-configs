@@ -4648,14 +4648,7 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": {
-        "buttonBoxConfig": {
-          "hasLights": false,
-          "additionalLights": false,
-          "additionalPlusLights": false,
-          "RGBLights": false
-        }
-      },
+      "config": null,
       "buttons": [
         {
           "name": "eletrical_engine",
@@ -4680,14 +4673,7 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": {
-        "buttonBoxConfig": {
-          "hasLights": false,
-          "additionalLights": false,
-          "additionalPlusLights": false,
-          "RGBLights": false
-        }
-      },
+      "config": null,
       "buttons": [
         {
           "name": "eletrical_engine",
