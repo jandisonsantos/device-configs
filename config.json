@@ -602,9 +602,13 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
-        "hasConfigPage": true,
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
+        "hasConfigPage": true
       },
       "buttons": [
         {
@@ -623,7 +627,14 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": {},
+      "config": {
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
+      },
       "buttons": [
         {
           "name": "change_shifterType",
@@ -699,7 +710,14 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": {},
+      "config": {
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
+      },
       "buttons": [
         {
           "name": "retarder_level_1",
@@ -750,7 +768,14 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": {},
+      "config": {
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
+      },
       "buttons": []
     },
     {
@@ -761,7 +786,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -781,7 +811,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -832,7 +867,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -873,7 +913,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -915,7 +960,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -942,7 +992,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -969,7 +1024,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -997,7 +1057,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -1017,8 +1082,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -1066,7 +1135,14 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": {},
+      "config": {
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
+      },
       "buttons": []
     },
     {
@@ -1077,8 +1153,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -1127,8 +1207,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -1149,7 +1233,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": []
     },
@@ -1161,7 +1250,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": []
@@ -1174,8 +1268,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -1217,7 +1315,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -1245,7 +1348,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -1272,7 +1380,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -1299,7 +1412,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -1335,7 +1453,14 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": {},
+      "config": {
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
+      },
       "buttons": [
         {
           "name": "parking_break",
@@ -1361,8 +1486,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -1406,8 +1535,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -1458,7 +1591,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -1513,7 +1651,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -1547,9 +1690,13 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
-        "hasConfigPage": true,
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
+        "hasConfigPage": true
       },
       "buttons": [
         {
@@ -1576,7 +1723,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -1596,9 +1748,13 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasConfigPage": true,
-        "RGBLights": true,
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
+        "hasConfigPage": true
       },
       "buttons": [
         {
@@ -1618,7 +1774,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -1687,10 +1848,13 @@
       "configPageName": "",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
-        "hasConfigPage": true,
-        "sleepThread": 0,
-        "additionalLights": true
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
+        "hasConfigPage": true
       },
       "buttons": [
         {
@@ -1717,8 +1881,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -1760,7 +1928,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": []
     },
@@ -1772,7 +1945,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -1799,9 +1977,13 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
-        "hasConfigPage": true,
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
+        "hasConfigPage": true
       },
       "buttons": [
         {
@@ -1828,7 +2010,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -1855,9 +2042,13 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasConfigPage": true,
-        "hasLights": true,
-        "RGBLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
+        "hasConfigPage": true
       },
       "buttons": [
         {
@@ -2005,7 +2196,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": []
     },
@@ -2017,7 +2213,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": []
@@ -2030,7 +2231,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": []
     },
@@ -2042,7 +2248,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": []
@@ -2055,7 +2266,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -2075,7 +2291,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": []
     },
@@ -2087,7 +2308,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -2107,7 +2333,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -2127,7 +2358,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -2173,7 +2409,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": []
@@ -2186,7 +2427,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": false
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -2382,8 +2628,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -2459,8 +2709,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasConfigPage": true,
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -2616,7 +2870,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -2650,8 +2909,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -2746,8 +3009,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "sleepThread": 0,
-        "additionalLights": true
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -2781,7 +3048,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -2808,7 +3080,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -2884,8 +3161,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -2943,8 +3224,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -3101,8 +3386,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "additionalPlusLights": true
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": true,
+          "RGBLights": false
+        }
       },
       "buttons": []
     },
@@ -3114,8 +3403,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": []
@@ -3128,7 +3421,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -3149,8 +3447,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -3185,8 +3487,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -3227,8 +3533,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": false,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -3256,8 +3566,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -3299,8 +3613,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": false,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": []
@@ -3313,8 +3631,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -3349,8 +3671,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -3385,7 +3711,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": []
@@ -3398,7 +3729,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -3419,9 +3755,13 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasConfigPage": true,
-        "hasLights": true,
-        "RGBLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
+        "hasConfigPage": true
       },
       "buttons": []
     },
@@ -3433,8 +3773,13 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
+        "hasConfigPage": true
       },
       "buttons": [
         {
@@ -3461,9 +3806,13 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasConfigPage": true,
-        "hasLights": true,
-        "RGBLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
+        "hasConfigPage": true
       },
       "buttons": [
         {
@@ -3511,9 +3860,13 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasConfigPage": true,
-        "hasLights": true,
-        "RGBLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
+        "hasConfigPage": true
       },
       "buttons": []
     },
@@ -3525,9 +3878,13 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasConfigPage": true,
-        "hasLights": true,
-        "RGBLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
+        "hasConfigPage": true
       },
       "buttons": [
         {
@@ -3582,9 +3939,13 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasConfigPage": true,
-        "hasLights": true,
-        "RGBLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
+        "hasConfigPage": true
       },
       "buttons": [
         {
@@ -3604,8 +3965,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -3675,8 +4040,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -3831,8 +4200,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
-        "hasLights": true,
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -3853,8 +4226,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
-        "hasLights": true,
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -3889,8 +4266,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -4120,9 +4501,13 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
-        "hasConfigPage": true,
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
+        "hasConfigPage": true
       },
       "buttons": [
         {
@@ -4162,8 +4547,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -4381,8 +4770,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -4445,7 +4838,14 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": {},
+      "config": {
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
+      },
       "buttons": [
         {
           "name": "eletrical_engine",
@@ -4463,7 +4863,14 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": {},
+      "config": {
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
+      },
       "buttons": []
     },
     {
@@ -4648,7 +5055,14 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": null,
+      "config": {
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
+      },
       "buttons": [
         {
           "name": "eletrical_engine",
@@ -4673,7 +5087,14 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": null,
+      "config": {
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
+      },
       "buttons": [
         {
           "name": "eletrical_engine",
@@ -5082,7 +5503,6 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
         "buttonBoxConfig": {
           "hasLights": true,
           "additionalLights": true,
@@ -5122,9 +5542,13 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "RGBLights": true,
-        "hasConfigPage": true,
-        "additionalLights": true
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
+        "hasConfigPage": true
       },
       "buttons": [
         {
@@ -5207,7 +5631,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -5234,7 +5663,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": []
     },
@@ -5246,7 +5680,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": []
     },
@@ -5258,7 +5697,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": []
     },
@@ -5270,8 +5714,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "additionalPlusLights": true
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": true,
+          "RGBLights": false
+        }
       },
       "buttons": []
     },
@@ -5283,8 +5731,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "additionalPlusLights": true
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": true,
+          "RGBLights": false
+        }
       },
       "buttons": []
     },
@@ -5296,8 +5748,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "additionalPlusLights": true
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": true,
+          "RGBLights": false
+        }
       },
       "buttons": []
     },
@@ -5308,7 +5764,14 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": {},
+      "config": {
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
+      },
       "buttons": []
     },
     {
@@ -5318,7 +5781,14 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": {},
+      "config": {
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
+      },
       "buttons": [
         {
           "name": "talk",
@@ -5337,8 +5807,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": []
@@ -5384,7 +5858,14 @@
       "type": "ButtonBox",
       "configPageName": "buttonBoxPage",
       "controllerList": null,
-      "config": {},
+      "config": {
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
+      },
       "buttons": [
         {
           "name": "parking_break_down",
@@ -5454,8 +5935,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -5541,8 +6026,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "hasConfigPage": true,
-        "hasLights": true
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
       },
       "buttons": [
         {
@@ -5662,8 +6151,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
@@ -5731,8 +6224,12 @@
       "configPageName": "buttonBoxPage",
       "controllerList": null,
       "config": {
-        "additionalLights": true,
-        "RGBLights": true,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
         "hasConfigPage": true
       },
       "buttons": [
