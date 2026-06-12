@@ -1,5 +1,5 @@
 {
-  "version": 4.06,
+  "version": 4.07,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -812,7 +812,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": false,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -914,7 +914,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": false,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -1025,7 +1025,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": false,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -1251,7 +1251,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": false,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -1316,7 +1316,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": false,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -1413,7 +1413,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": false,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -1487,7 +1487,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -1536,7 +1536,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -1849,7 +1849,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -1882,7 +1882,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -2214,7 +2214,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": false,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -2249,7 +2249,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": false,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -2410,7 +2410,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": false,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -2910,7 +2910,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -3162,7 +3162,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -3225,7 +3225,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -3404,7 +3404,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -3422,7 +3422,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": false,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -3448,7 +3448,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -3488,7 +3488,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -3534,7 +3534,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": false,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -3567,7 +3567,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -3614,7 +3614,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": false,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -3632,7 +3632,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -3672,7 +3672,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -3712,7 +3712,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": false,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -3730,7 +3730,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": false,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -3774,7 +3774,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -3966,7 +3966,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -4041,7 +4041,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -4548,7 +4548,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -4771,7 +4771,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -5543,7 +5543,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -5936,7 +5936,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -6152,7 +6152,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
@@ -6225,7 +6225,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": true
