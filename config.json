@@ -1,5 +1,5 @@
 {
-  "version": 4.05,
+  "version": 4.06,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -6155,6 +6155,95 @@
           "pressedButton": false
         }
       ]
+    },
+    {
+      "name": "Seta Scania NTG",
+      "type": "ChaveSeta",
+      "vid": "2020",
+      "pid": "1058",
+      "configPageName": "chaveDeSetaPage",
+      "buttons": [
+        {
+          "name": "high_beam",
+          "btId": 1,
+          "KeyboardKey": "k",
+          "truckVariableName": "HighBeam",
+          "pressedButton": false
+        },
+        {
+          "name": "road_sign",
+          "btId": 2,
+          "KeyboardKey": "j",
+          "truckVariableName": "RoadSign",
+          "pressedButton": false
+        },
+        {
+          "name": "blinker_right",
+          "btId": 3,
+          "KeyboardKey": "[",
+          "truckVariableName": "BlinkerRight",
+          "pressedButton": false
+        },
+        {
+          "name": "blinker_left",
+          "btId": 4,
+          "KeyboardKey": "´",
+          "truckVariableName": "BlinkerLeft",
+          "pressedButton": false
+        },
+        {
+          "name": "wipers_speed_1",
+          "btId": "6",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "WipersSpeed1",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "wipers_speed_2",
+          "btId": "7",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "WipersSpeed2",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "wipers_speed_3",
+          "btId": "8",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "WipersSpeed3",
+          "gameInput": "",
+          "enableInPausedGame": false
+        }
+      ],
+      "config": {
+        "sleepThread": 200,
+        "chaveDeSetaConfig": {
+          "parkingLightsControl": false,
+          "highBeamControl": true,
+          "HighBeamOnOff": false,
+          "blinkersControl": true,
+          "wipersControl": true,
+          "retarderControl": 0,
+          "gearControl": false,
+          "othersControl": false,
+          "sleepThread": 200
+        }
+      },
+      "controllerList": null
+    },
+    {
+      "name": "Controle de Suspensão / Rádio PX",
+      "type": "ButtonBox",
+      "vid": "2020",
+      "pid": "1140",
+      "configPageName": "buttonBoxPage",
+      "buttons": [],
+      "config": null,
+      "controllerList": null
     }
   ]
 }
