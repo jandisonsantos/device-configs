@@ -1,11 +1,11 @@
 ;aiu;
 
 [Update1]
-Name=Central de controles 2.0.88
-Description=Melhorias de estabilidade na leitura dos dispositivos USB/DirectInput, com recuperacao automatica de conexao e logs aprimorados para diagnostico do Receptor WiFi.
-URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.0.88/cargo_simuladores_central_controles_2.0.88.exe
-Size=75545127
-ServerFileName=cargo_simuladores_central_controles_2.0.88.exe
+Name=Central de controles 2.0.89
+Description=Ajuste no carregamento dos dispositivos
+URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.0.89/cargo_simuladores_central_controles_2.0.89.exe
+Size=75547779
+ServerFileName=cargo_simuladores_central_controles_2.0.89.exe
 FilePath=[APPDIR]ChaveDeSetaETS2.exe
-Version=2.0.88
+Version=2.0.89
 Replaces=All
