@@ -1,5 +1,5 @@
 {
-  "version": 4.08,
+  "version": 4.09,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -5700,7 +5700,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": false,
           "RGBLights": false
@@ -5717,7 +5717,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": true,
           "RGBLights": false
@@ -5734,7 +5734,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": true,
           "RGBLights": false
@@ -5751,7 +5751,7 @@
       "controllerList": null,
       "config": {
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": true,
           "additionalPlusLights": true,
           "RGBLights": false
