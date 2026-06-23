@@ -1,5 +1,5 @@
 {
-  "version": 4.11,
+  "version": 4.12,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -4368,11 +4368,10 @@
         {
           "name": "enter",
           "btId": "12",
-          "buttonType": "game",
-          "keyboardKey": "Enter",
-          "truckVariableName": "",
-          "gameInput": "activate",
-          "enableInPausedGame": false
+          "KeyboardKey": "enter",
+          "truckVariableName": "enter",
+          "pressedButton": false,
+          "enableInPausedGame": true
         },
         {
           "name": "combustivel",
