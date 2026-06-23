@@ -1,5 +1,5 @@
 {
-  "version": 4.1,
+  "version": 4.11,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -6761,13 +6761,11 @@
       },
       "buttons": [
         {
-          "name": "parking_brake",
+          "name": "parking_break",
           "btId": "16",
-          "buttonType": "game",
-          "keyboardKey": "Space",
-          "truckVariableName": "",
-          "gameInput": "parkingbrake",
-          "enableInPausedGame": false
+          "KeyboardKey": "space",
+          "truckVariableName": "ParkBrakeOn",
+          "pressedButton": false
         },
         {
           "name": "hazard",
