@@ -1,5 +1,5 @@
 {
-  "version": 4.12,
+  "version": 4.13,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -6759,6 +6759,14 @@
         "hasConfigPage": true
       },
       "buttons": [
+        {
+          "name": "enter",
+          "btId": "12",
+          "KeyboardKey": "enter",
+          "truckVariableName": "enter",
+          "pressedButton": false,
+          "enableInPausedGame": true
+        },
         {
           "name": "parking_break",
           "btId": "16",
