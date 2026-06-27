@@ -1,11 +1,11 @@
 ;aiu;
 
 [Update1]
-Name=Central de controles 2.0.90
-Description=Ajuste na tecla de ativacao enter para Button Box
-URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.0.90/cargo_simuladores_central_controles_2.0.90.exe
-Size=75558433
-ServerFileName=cargo_simuladores_central_controles_2.0.90.exe
+Name=Central de controles 2.0.91
+Description=Sistema de atualizacao automatica
+URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.0.91/cargo_simuladores_central_controles_2.0.91.exe
+Size=75551224
+ServerFileName=cargo_simuladores_central_controles_2.0.91.exe
 FilePath=[APPDIR]ChaveDeSetaETS2.exe
-Version=2.0.90
+Version=2.0.91
 Replaces=All
