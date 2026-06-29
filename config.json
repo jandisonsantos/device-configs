@@ -1,5 +1,5 @@
 {
-  "version": 4.13,
+  "version": 4.14,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -6740,7 +6740,7 @@
       "pid": "1140",
       "configPageName": "buttonBoxPage",
       "buttons": [],
-      "config": {},
+      "config": null,
       "controllerList": null
     },
     {
