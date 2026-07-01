@@ -1,5 +1,5 @@
 {
-  "version": 4.14,
+  "version": 4.15,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -2713,8 +2713,9 @@
           "hasLights": true,
           "additionalLights": false,
           "additionalPlusLights": false,
-          "RGBLights": false
-        }
+          "RGBLights": true
+        },
+        "hasConfigPage": true
       },
       "buttons": [
         {
@@ -6031,8 +6032,9 @@
           "hasLights": true,
           "additionalLights": false,
           "additionalPlusLights": false,
-          "RGBLights": false
-        }
+          "RGBLights": true
+        },
+        "hasConfigPage": true
       },
       "buttons": [
         {
@@ -6759,14 +6761,6 @@
         "hasConfigPage": true
       },
       "buttons": [
-        {
-          "name": "enter",
-          "btId": "12",
-          "KeyboardKey": "enter",
-          "truckVariableName": "enter",
-          "pressedButton": false,
-          "enableInPausedGame": true
-        },
         {
           "name": "parking_break",
           "btId": "16",
