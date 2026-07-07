@@ -1,5 +1,5 @@
 {
-  "version": 4.18,
+  "version": 4.19,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -6820,7 +6820,7 @@
             "globalInfos": {
               "clock": true,
               "shifterSpeed": true,
-              "retarder": false,
+              "retarder": true,
               "fuel": false,
               "airPressure": false
             }
