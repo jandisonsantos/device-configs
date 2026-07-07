@@ -1,5 +1,5 @@
 {
-  "version": 4.15,
+  "version": 4.18,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -8,7 +8,7 @@
       "type": "Dashboard",
       "configPageName": "dashboardPage",
       "controllerList": null,
-      "config": {},
+      "config": null,
       "buttons": []
     },
     {
@@ -42,7 +42,7 @@
       "type": "Manopla",
       "configPageName": "manoplaPage",
       "controllerList": null,
-      "config": {},
+      "config": null,
       "buttons": []
     },
     {
@@ -551,7 +551,7 @@
       "type": "Manopla",
       "configPageName": "manoplaPage",
       "controllerList": null,
-      "config": {},
+      "config": null,
       "buttons": []
     },
     {
@@ -561,7 +561,7 @@
       "type": "Dashboard",
       "configPageName": "manoplaPage",
       "controllerList": null,
-      "config": {},
+      "config": null,
       "buttons": []
     },
     {
@@ -571,7 +571,7 @@
       "type": "Manopla",
       "configPageName": "manoplaPage",
       "controllerList": null,
-      "config": {},
+      "config": null,
       "buttons": []
     },
     {
@@ -581,7 +581,7 @@
       "type": "Manopla",
       "configPageName": "manoplaPage",
       "controllerList": null,
-      "config": {},
+      "config": null,
       "buttons": []
     },
     {
@@ -591,7 +591,7 @@
       "type": "Manopla",
       "configPageName": "manoplaPage",
       "controllerList": null,
-      "config": {},
+      "config": null,
       "buttons": []
     },
     {
@@ -700,7 +700,7 @@
       "type": "Manopla",
       "configPageName": "manoplaPage",
       "controllerList": null,
-      "config": {},
+      "config": null,
       "buttons": []
     },
     {
@@ -1798,7 +1798,7 @@
       "type": "Dashboard",
       "configPageName": "dashboardPage",
       "controllerList": null,
-      "config": {},
+      "config": null,
       "buttons": []
     },
     {
@@ -1837,7 +1837,7 @@
           ]
         }
       ],
-      "config": {},
+      "config": null,
       "buttons": []
     },
     {
@@ -2616,7 +2616,7 @@
           ]
         }
       ],
-      "config": {},
+      "config": null,
       "buttons": []
     },
     {
@@ -2698,7 +2698,7 @@
           ]
         }
       ],
-      "config": {},
+      "config": null,
       "buttons": []
     },
     {
@@ -2999,7 +2999,7 @@
           ]
         }
       ],
-      "config": {},
+      "config": null,
       "buttons": []
     },
     {
@@ -3376,7 +3376,7 @@
           ]
         }
       ],
-      "config": {},
+      "config": null,
       "buttons": []
     },
     {
@@ -5122,7 +5122,7 @@
       "type": "Dashboard",
       "configPageName": "dashboardPage",
       "controllerList": null,
-      "config": {},
+      "config": null,
       "buttons": []
     },
     {
@@ -5494,7 +5494,7 @@
       "type": "Dashboard",
       "configPageName": "dashboardPage",
       "controllerList": null,
-      "config": {},
+      "config": null,
       "buttons": []
     },
     {
@@ -5826,7 +5826,7 @@
       "type": "Manopla",
       "configPageName": "manoplaPage",
       "controllerList": null,
-      "config": {},
+      "config": null,
       "buttons": []
     },
     {
@@ -6796,6 +6796,46 @@
           "enableInPausedGame": false
         }
       ],
+      "controllerList": null
+    },
+    {
+      "name": "Painel Volvo 2.0",
+      "type": "ESPDashboard",
+      "vid": "2020",
+      "pid": "1045",
+      "configPageName": "dashboardPage",
+      "buttons": [],
+      "config": {
+        "ESPDashboardConfig": {
+          "startAnimPage": 2,
+          "endAnimPage": 13,
+          "pausedPageScreen": 14,
+          "totalPages": 10,
+          "getBrightness": true,
+          "hasScreen": true,
+          "hasLights": true,
+          "gauges": 4,
+          "queue": true,
+          "pagesConfigs": {
+            "globalInfos": {
+              "clock": true,
+              "shifterSpeed": true,
+              "retarder": false,
+              "fuel": false,
+              "airPressure": false
+            }
+          },
+          "gaugesConfigs": {
+            "rpm": true,
+            "speed": true,
+            "speedLimit": 120,
+            "airPressure": true,
+            "fuel": true,
+            "tempWater": false,
+            "oilPressure": false
+          }
+        }
+      },
       "controllerList": null
     }
   ]
