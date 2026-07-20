@@ -1,5 +1,5 @@
 {
-  "version": 4.19,
+  "version": 4.2,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -6835,6 +6835,34 @@
             "oilPressure": false
           }
         }
+      },
+      "controllerList": null
+    },
+    {
+      "name": "Volante Scania  Highline",
+      "type": "ButtonBox",
+      "vid": "2020",
+      "pid": "1148",
+      "configPageName": "buttonBoxPage",
+      "buttons": [
+        {
+          "name": "horn",
+          "btId": "1",
+          "buttonType": "game",
+          "keyboardKey": "H",
+          "truckVariableName": "",
+          "gameInput": "horn",
+          "enableInPausedGame": false
+        }
+      ],
+      "config": {
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        },
+        "hasConfigPage": true
       },
       "controllerList": null
     }
