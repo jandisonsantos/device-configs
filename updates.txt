@@ -1,11 +1,11 @@
 ;aiu;
 
 [Update1]
-Name=Central de controles 2.0.93
-Description=Ajuste na deteccao do painel de instrumentos
-URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.0.93/cargo_simuladores_central_controles_2.0.93.exe
-Size=75551797
-ServerFileName=cargo_simuladores_central_controles_2.0.93.exe
+Name=Central de controles 2.0.94
+Description=Ajuste no botao start stop
+URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.0.94/cargo_simuladores_central_controles_2.0.94.exe
+Size=75551799
+ServerFileName=cargo_simuladores_central_controles_2.0.94.exe
 FilePath=[APPDIR]ChaveDeSetaETS2.exe
-Version=2.0.93
+Version=2.0.94
 Replaces=All
