@@ -1,11 +1,11 @@
 ;aiu;
 
 [Update1]
-Name=Central de controles 2.0.94
-Description=Ajuste no botao start stop
-URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.0.94/cargo_simuladores_central_controles_2.0.94.exe
-Size=75551799
-ServerFileName=cargo_simuladores_central_controles_2.0.94.exe
+Name=Central de controles 2.0.95
+Description=Ajuste na deteccao da chave de seta
+URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.0.95/cargo_simuladores_central_controles_2.0.95.exe
+Size=75552870
+ServerFileName=cargo_simuladores_central_controles_2.0.95.exe
 FilePath=[APPDIR]ChaveDeSetaETS2.exe
-Version=2.0.94
+Version=2.0.95
 Replaces=All
