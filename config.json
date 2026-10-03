@@ -1,5 +1,5 @@
 {
-  "version": 4.25,
+  "version": 4.26,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -6875,7 +6875,7 @@
       "buttons": [
         {
           "name": "parking_break_down",
-          "btId": "15",
+          "btId": "16",
           "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "ParkBrakeDown",
@@ -6884,20 +6884,11 @@
         },
         {
           "name": "parking_break_up",
-          "btId": "16",
+          "btId": "17",
           "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "ParkBrakeUp",
           "gameInput": "",
-          "enableInPausedGame": false
-        },
-        {
-          "name": "fechar_janela_esquerda",
-          "btId": "17",
-          "buttonType": "game",
-          "keyboardKey": "",
-          "truckVariableName": "",
-          "gameInput": "lwinclose",
           "enableInPausedGame": false
         },
         {
@@ -6928,8 +6919,17 @@
           "enableInPausedGame": false
         },
         {
-          "name": "StartStop",
+          "name": "fechar_janela_esquerda",
           "btId": "21",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "lwinclose",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "StartStop",
+          "btId": "22",
           "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "StartStop",
