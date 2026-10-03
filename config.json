@@ -1,5 +1,5 @@
 {
-  "version": 4.27,
+  "version": 4.28,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -6873,6 +6873,15 @@
       "pid": "0081",
       "configPageName": "buttonBoxPage",
       "buttons": [
+        {
+          "name": "subir_susp_dianteira",
+          "btId": "1",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "frontsuspup",
+          "enableInPausedGame": false
+        },
         {
           "name": "parking_break_down",
           "btId": "16",
