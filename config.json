@@ -1,5 +1,5 @@
 {
-  "version": 4.2,
+  "version": 4.23,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -6861,6 +6861,52 @@
           "additionalLights": false,
           "additionalPlusLights": false,
           "RGBLights": false
+        },
+        "hasConfigPage": true
+      },
+      "controllerList": null
+    },
+    {
+      "name": "Button Box Estocolmo",
+      "type": "ButtonBox",
+      "vid": "2020",
+      "pid": "0081",
+      "configPageName": "buttonBoxPage",
+      "buttons": [
+        {
+          "name": "parking_break_down",
+          "btId": "15",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "ParkBrakeDown",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "parking_break_up",
+          "btId": "16",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "ParkBrakeUp",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "StartStop",
+          "btId": "21",
+          "buttonType": "app",
+          "keyboardKey": "",
+          "truckVariableName": "StartStop",
+          "gameInput": "",
+          "enableInPausedGame": false
+        }
+      ],
+      "config": {
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
         },
         "hasConfigPage": true
       },
