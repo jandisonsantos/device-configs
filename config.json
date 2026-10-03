@@ -1,5 +1,5 @@
 {
-  "version": 4.23,
+  "version": 4.24,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -6905,6 +6905,24 @@
         "buttonBoxConfig": {
           "hasLights": true,
           "additionalLights": true,
+          "additionalPlusLights": false,
+          "RGBLights": true
+        },
+        "hasConfigPage": true
+      },
+      "controllerList": null
+    },
+    {
+      "name": "Button Box Detroit",
+      "type": "ButtonBox",
+      "vid": "2020",
+      "pid": "0082",
+      "configPageName": "buttonBoxPage",
+      "buttons": [],
+      "config": {
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": false,
           "additionalPlusLights": false,
           "RGBLights": true
         },
