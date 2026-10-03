@@ -1,5 +1,5 @@
 {
-  "version": 4.26,
+  "version": 4.27,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -6892,8 +6892,17 @@
           "enableInPausedGame": false
         },
         {
-          "name": "abrir_janela_esquerda",
+          "name": "fechar_janela_esquerda",
           "btId": "18",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "lwinclose",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "abrir_janela_esquerda",
+          "btId": "19",
           "buttonType": "game",
           "keyboardKey": "",
           "truckVariableName": "",
@@ -6902,7 +6911,7 @@
         },
         {
           "name": "fechar_janela_direita",
-          "btId": "19",
+          "btId": "20",
           "buttonType": "game",
           "keyboardKey": "",
           "truckVariableName": "",
@@ -6911,20 +6920,11 @@
         },
         {
           "name": "abrir_janela_direita",
-          "btId": "20",
-          "buttonType": "game",
-          "keyboardKey": "",
-          "truckVariableName": "",
-          "gameInput": "rwinopen",
-          "enableInPausedGame": false
-        },
-        {
-          "name": "fechar_janela_esquerda",
           "btId": "21",
           "buttonType": "game",
           "keyboardKey": "",
           "truckVariableName": "",
-          "gameInput": "lwinclose",
+          "gameInput": "rwinopen",
           "enableInPausedGame": false
         },
         {
