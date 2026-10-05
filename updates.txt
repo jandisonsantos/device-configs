@@ -1,11 +1,10 @@
 ;aiu;
-
 [Update1]
-Name=Central de controles 2.0.96
-Description=Ajuste na velocidade do painel de instrumentos, quando parado em rampa
-URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.0.96/cargo_simuladores_central_controles_2.0.96.exe
-Size=75552881
-ServerFileName=cargo_simuladores_central_controles_2.0.96.exe
+Name=Central de controles 2.0.98
+Description=adicionado a edicao de mapeamento de botoes para button box
+URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.0.98/cargo_simuladores_central_controles_2.0.98.exe
+Size=75578157
+ServerFileName=cargo_simuladores_central_controles_2.0.98.exe
 FilePath=[APPDIR]ChaveDeSetaETS2.exe
-Version=2.0.96
+Version=2.0.98
 Replaces=All
