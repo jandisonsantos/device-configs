@@ -1,10 +1,10 @@
 ;aiu;
 [Update1]
-Name=Central de controles 2.0.98
-Description=adicionado a edicao de mapeamento de botoes para button box
-URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.0.98/cargo_simuladores_central_controles_2.0.98.exe
+Name=Central de controles 2.0.99
+Description=ajuste na edicao de botoes mapeados ao remover a lista completa
+URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.0.99/cargo_simuladores_central_controles_2.0.99.exe
 Size=75578157
-ServerFileName=cargo_simuladores_central_controles_2.0.98.exe
+ServerFileName=cargo_simuladores_central_controles_2.0.99.exe
 FilePath=[APPDIR]ChaveDeSetaETS2.exe
-Version=2.0.98
+Version=2.0.99
 Replaces=All
