@@ -1,10 +1,10 @@
 ;aiu;
 [Update1]
-Name=Central de controles 2.0.99
-Description=ajuste na edicao de botoes mapeados ao remover a lista completa
-URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.0.99/cargo_simuladores_central_controles_2.0.99.exe
-Size=75578157
-ServerFileName=cargo_simuladores_central_controles_2.0.99.exe
+Name=Central de controles 2.1.00
+Description=adicionado edicao de botoes para controle da tela do computador de bordo do painel de instrumentos
+URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.1.00/cargo_simuladores_central_controles_2.1.00.exe
+Size=75585307
+ServerFileName=cargo_simuladores_central_controles_2.1.00.exe
 FilePath=[APPDIR]ChaveDeSetaETS2.exe
-Version=2.0.99
+Version=2.1.00
 Replaces=All
