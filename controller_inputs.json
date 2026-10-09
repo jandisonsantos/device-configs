@@ -417,6 +417,11 @@
                    },
                    {
                        "name":  "gearsel2off"
+                   },
+                   {
+                       "name":  "camzoom",
+                       "label":  "Zoom na câmera interna",
+                       "group":  "Câmeras Auxiliares"
                    }
                ]
 }
