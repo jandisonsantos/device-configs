@@ -1,5 +1,5 @@
 {
-  "version": 4.3,
+  "version": 4.31,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -7005,7 +7005,7 @@
         },
         {
           "name": "parking_break_up",
-          "btId": "25",
+          "btId": "24",
           "buttonType": "app",
           "keyboardKey": "",
           "truckVariableName": "ParkBrakeUp",
