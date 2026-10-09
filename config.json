@@ -1,5 +1,5 @@
 {
-  "version": 4.29,
+  "version": 4.3,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -7005,10 +7005,12 @@
         },
         {
           "name": "parking_break_up",
-          "btId": 24,
-          "KeyboardKey": "space",
+          "btId": "25",
+          "buttonType": "app",
+          "keyboardKey": "",
           "truckVariableName": "ParkBrakeUp",
-          "pressedButton": false
+          "gameInput": "",
+          "enableInPausedGame": false
         },
         {
           "name": "hazard_light",
