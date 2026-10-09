@@ -1,427 +1,509 @@
 {
-    "version":  1,
-    "inputs":  [
-                   {
-                       "name":  "parkingbrake",
-                       "label":  "Freio de estacionamento",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "wipers",
-                       "label":  "Limpadores",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "light",
-                       "label":  "Modos de faróis",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "lightoff",
-                       "label":  "Luzes desligadas",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "lightpark",
-                       "label":  "Luzes de posição",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "lighton",
-                       "label":  "Faróis baixo",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "hblight",
-                       "label":  "Faróis alto",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "lblinkerh",
-                       "label":  "Seta esquerda ativa",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "rblinkerh",
-                       "label":  "Seta direita ativa",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "wipers0",
-                       "label":  "Limpadores desligados",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "wipers1",
-                       "label":  "Limpadores velocidade 1",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "wipers2",
-                       "label":  "Limpadores velocidade 2",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "wipers3",
-                       "label":  "Limpadores velocidade 3",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "wipers4",
-                       "label":  "Limpadores velocidade 4",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "lighthorn",
-                       "label":  "Sinal de luz alta",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "cmirrorsel"
-                   },
-                   {
-                       "name":  "fmirrorsel"
-                   },
-                   {
-                       "name":  "mirroryawl"
-                   },
-                   {
-                       "name":  "mirroryawr"
-                   },
-                   {
-                       "name":  "mirrorpitu"
-                   },
-                   {
-                       "name":  "mirrorpitl"
-                   },
-                   {
-                       "name":  "mirrorreset"
-                   },
-                   {
-                       "name":  "retarder0",
-                       "label":  "Retarder desligado",
-                       "group":  "FreiosAux"
-                   },
-                   {
-                       "name":  "retarder1",
-                       "label":  "Retarder Nível 1",
-                       "group":  "FreiosAux"
-                   },
-                   {
-                       "name":  "retarder2",
-                       "label":  "Retarder Nível 2",
-                       "group":  "FreiosAux"
-                   },
-                   {
-                       "name":  "retarder3",
-                       "label":  "Retarder Nível 3",
-                       "group":  "FreiosAux"
-                   },
-                   {
-                       "name":  "retarder4",
-                       "label":  "Retarder Nível 4",
-                       "group":  "FreiosAux"
-                   },
-                   {
-                       "name":  "retarder5",
-                       "label":  "Retarder Nível 5",
-                       "group":  "FreiosAux"
-                   },
-                   {
-                       "name":  "ignitionoff",
-                       "label":  "Desligar elétrica do motor",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "ignitionon",
-                       "label":  "Ligar elétrica do motor",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "ignitionstrt"
-                   },
-                   {
-                       "name":  "engine",
-                       "label":  "Ligar motor",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "engineelect"
-                   },
-                   {
-                       "name":  "activate",
-                       "label":  "Ativar",
-                       "group":  "Acoes"
-                   },
-                   {
-                       "name":  "flasher4way",
-                       "label":  "Pisca-alerta",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "drive",
-                       "label":  "Transmissão automática: Avançar",
-                       "group":  "Transmissao"
-                   },
-                   {
-                       "name":  "reverse",
-                       "label":  "Transmissão automática: Ré",
-                       "group":  "Transmissao"
-                   },
-                   {
-                       "name":  "gearup",
-                       "label":  "Subir marcha",
-                       "group":  "Transmissao"
-                   },
-                   {
-                       "name":  "geardown",
-                       "label":  "Diminuir marcha",
-                       "group":  "Transmissao"
-                   },
-                   {
-                       "name":  "gearuphint",
-                       "label":  "Indicar para subir marcha",
-                       "group":  "Transmissao"
-                   },
-                   {
-                       "name":  "geardownhint",
-                       "label":  "Indicar para descer marcha",
-                       "group":  "Transmissao"
-                   },
-                   {
-                       "name":  "transemi",
-                       "label":  "Alternar entre transmissão automática e sequencial",
-                       "group":  "Transmissao"
-                   },
-                   {
-                       "name":  "liftaxle",
-                       "label":  "Erguer ou baixar eixo do caminhão",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "liftaxlet",
-                       "label":  "Erguer ou baixar eixo do reboque",
-                       "group":  "Reboque"
-                   },
-                   {
-                       "name":  "advpage0",
-                       "label":  "Exibir página de navegação",
-                       "group":  "Supervisor"
-                   },
-                   {
-                       "name":  "advpage1",
-                       "label":  "Exibir página de informações de trabalho",
-                       "group":  "Supervisor"
-                   },
-                   {
-                       "name":  "advpage2",
-                       "label":  "Exibir página de diagnóstico e assistência",
-                       "group":  "Supervisor"
-                   },
-                   {
-                       "name":  "advpage3",
-                       "label":  "Exibir página de informações",
-                       "group":  "Supervisor"
-                   },
-                   {
-                       "name":  "advpage4",
-                       "label":  "Exibir página de bate-papo",
-                       "group":  "Supervisor"
-                   },
-                   {
-                       "name":  "attach",
-                       "label":  "Engatar ou desengatar reboque",
-                       "group":  "Reboque"
-                   },
-                   {
-                       "name":  "diflock",
-                       "label":  "Bloqueio de diferencial",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "beacon",
-                       "label":  "Luz rotativa",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "cruiectrl",
-                       "label":  "Controle de cruzeiro",
-                       "group":  "Assistentes"
-                   },
-                   {
-                       "name":  "cruiectrlinc",
-                       "label":  "Aumentar velocidade do controle de cruzeiro",
-                       "group":  "Assistentes"
-                   },
-                   {
-                       "name":  "cruiectrldec",
-                       "label":  "Reduzir velocidade do controle de cruzeiro",
-                       "group":  "Assistentes"
-                   },
-                   {
-                       "name":  "cruiectrlres",
-                       "label":  "Retomar controle de cruzeiro",
-                       "group":  "Assistentes"
-                   },
-                   {
-                       "name":  "motorbrake",
-                       "label":  "Freio Motor",
-                       "group":  "FreiosAux"
-                   },
-                   {
-                       "name":  "engbrakeup",
-                       "label":  "Aumentar freio motor",
-                       "group":  "FreiosAux"
-                   },
-                   {
-                       "name":  "engbrakedwn",
-                       "label":  "Reduzir freio motor",
-                       "group":  "FreiosAux"
-                   },
-                   {
-                       "name":  "trailerbrake",
-                       "label":  "Freio do reboque",
-                       "group":  "Reboque"
-                   },
-                   {
-                       "name":  "frontsuspup",
-                       "label":  "Subir suspensão dianteira",
-                       "group":  "Suspensao"
-                   },
-                   {
-                       "name":  "frontsuspdwn",
-                       "label":  "Descer suspensão dianteira",
-                       "group":  "Suspensao"
-                   },
-                   {
-                       "name":  "rearsuspup",
-                       "label":  "Subir suspensão traseira",
-                       "group":  "Suspensao"
-                   },
-                   {
-                       "name":  "rearsuspdwn",
-                       "label":  "Descer suspensão traseira",
-                       "group":  "Suspensao"
-                   },
-                   {
-                       "name":  "suspreset",
-                       "label":  "Redefinir suspensão",
-                       "group":  "Suspensao"
-                   },
-                   {
-                       "name":  "horn",
-                       "label":  "Buzina",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "airhorn",
-                       "label":  "Buzina a ar",
-                       "group":  "Caminhao"
-                   },
-                   {
-                       "name":  "rwinopen",
-                       "label":  "Abrir janela direita",
-                       "group":  "Interior"
-                   },
-                   {
-                       "name":  "rwinclose",
-                       "label":  "Fechar janela direita",
-                       "group":  "Interior"
-                   },
-                   {
-                       "name":  "lwinopen",
-                       "label":  "Abrir janela esquerda",
-                       "group":  "Interior"
-                   },
-                   {
-                       "name":  "lwinclose",
-                       "label":  "Fechar janela esquerda",
-                       "group":  "Interior"
-                   },
-                   {
-                       "name":  "retarderauto",
-                       "label":  "Retarder automático",
-                       "group":  "FreiosAux"
-                   },
-                   {
-                       "name":  "retarderup",
-                       "label":  "Aumentar retarder",
-                       "group":  "FreiosAux"
-                   },
-                   {
-                       "name":  "retarderdown",
-                       "label":  "Diminuir retarder",
-                       "group":  "FreiosAux"
-                   },
-                   {
-                       "name":  "radio",
-                       "label":  "Reprodutor de áudio",
-                       "group":  "Radio"
-                   },
-                   {
-                       "name":  "radionext",
-                       "label":  "Avançar no reprodutor de áudio",
-                       "group":  "Radio"
-                   },
-                   {
-                       "name":  "radioprev",
-                       "label":  "Retroceder no reprodutor de áudio",
-                       "group":  "Radio"
-                   },
-                   {
-                       "name":  "radioup",
-                       "label":  "Aumentar volume do reprodutor de áudio",
-                       "group":  "Radio"
-                   },
-                   {
-                       "name":  "radiodown",
-                       "label":  "Diminuir volume do reprodutor de áudio",
-                       "group":  "Radio"
-                   },
-                   {
-                       "name":  "navmap",
-                       "label":  "Mapa do mundo",
-                       "group":  "Acoes"
-                   },
-                   {
-                       "name":  "cam1",
-                       "label":  "Câmera Interna",
-                       "group":  "Camera"
-                   },
-                   {
-                       "name":  "cam2",
-                       "label":  "Câmera externa",
-                       "group":  "Camera"
-                   },
-                   {
-                       "name":  "advpagen",
-                       "label":  "Página seguinte do supervisor de rotas",
-                       "group":  "Supervisor"
-                   },
-                   {
-                       "name":  "advmouse",
-                       "label":  "Alternar para modo de controle por mouse",
-                       "group":  "Supervisor"
-                   },
-                   {
-                       "name":  "gar_man"
-                   },
-                   {
-                       "name":  "gearsel1on"
-                   },
-                   {
-                       "name":  "gearsel1off"
-                   },
-                   {
-                       "name":  "gearsel2on"
-                   },
-                   {
-                       "name":  "gearsel2off"
-                   },
-                   {
-                       "name":  "camzoom",
-                       "label":  "Zoom na câmera interna",
-                       "group":  "Câmeras Auxiliares"
-                   }
-               ]
+  "version": 2,
+  "inputs": [
+    {
+      "name": "parkingbrake",
+      "label": "Freio de estacionamento",
+      "group": "Caminhão",
+      "defaultKeyboardKey": "Space"
+    },
+    {
+      "name": "wipers",
+      "label": "Limpadores",
+      "group": "Caminhão",
+      "defaultKeyboardKey": "P"
+    },
+    {
+      "name": "light",
+      "label": "Modos de faróis",
+      "group": "Caminhão",
+      "defaultKeyboardKey": "L"
+    },
+    {
+      "name": "lightoff",
+      "label": "Luzes desligadas",
+      "group": "Caminhão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "lightpark",
+      "label": "Luzes de posição",
+      "group": "Caminhão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "lighton",
+      "label": "Faróis baixo",
+      "group": "Caminhão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "hblight",
+      "label": "Faróis alto",
+      "group": "Caminhão",
+      "defaultKeyboardKey": "K"
+    },
+    {
+      "name": "lblinkerh",
+      "label": "Seta esquerda ativa",
+      "group": "Caminhão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "rblinkerh",
+      "label": "Seta direita ativa",
+      "group": "Caminhão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "wipers0",
+      "label": "Limpadores desligados",
+      "group": "Caminhão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "wipers1",
+      "label": "Limpadores velocidade 1",
+      "group": "Caminhão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "wipers2",
+      "label": "Limpadores velocidade 2",
+      "group": "Caminhão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "wipers3",
+      "label": "Limpadores velocidade 3",
+      "group": "Caminhão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "wipers4",
+      "label": "Limpadores velocidade 4",
+      "group": "Caminhão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "lighthorn",
+      "label": "Sinal de luz alta",
+      "group": "Caminhão",
+      "defaultKeyboardKey": "J"
+    },
+    {
+      "name": "cmirrorsel"
+    },
+    {
+      "name": "fmirrorsel"
+    },
+    {
+      "name": "mirroryawl"
+    },
+    {
+      "name": "mirroryawr"
+    },
+    {
+      "name": "mirrorpitu"
+    },
+    {
+      "name": "mirrorpitl"
+    },
+    {
+      "name": "mirrorreset"
+    },
+    {
+      "name": "retarder0",
+      "label": "Retarder desligado",
+      "group": "Freios Auxiliares",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "retarder1",
+      "label": "Retarder Nível 1",
+      "group": "Freios Auxiliares",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "retarder2",
+      "label": "Retarder Nível 2",
+      "group": "Freios Auxiliares",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "retarder3",
+      "label": "Retarder Nível 3",
+      "group": "Freios Auxiliares",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "retarder4",
+      "label": "Retarder Nível 4",
+      "group": "Freios Auxiliares",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "retarder5",
+      "label": "Retarder Nível 5",
+      "group": "Freios Auxiliares",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "ignitionoff",
+      "label": "Desligar elétrica do motor",
+      "group": "Caminhão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "ignitionon",
+      "label": "Ligar elétrica do motor",
+      "group": "Caminhão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "ignitionstrt"
+    },
+    {
+      "name": "engine",
+      "label": "Ligar motor",
+      "group": "Caminhão",
+      "defaultKeyboardKey": "E"
+    },
+    {
+      "name": "engineelect"
+    },
+    {
+      "name": "activate",
+      "label": "Ativar",
+      "group": "Ações Rápidas",
+      "defaultKeyboardKey": "Enter"
+    },
+    {
+      "name": "flasher4way",
+      "label": "Pisca-alerta",
+      "group": "Caminhão",
+      "defaultKeyboardKey": "F"
+    },
+    {
+      "name": "drive",
+      "label": "Transmissão automática: Avançar",
+      "group": "Transmissão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "reverse",
+      "label": "Transmissão automática: Ré",
+      "group": "Transmissão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "gearup",
+      "label": "Subir marcha",
+      "group": "Transmissão",
+      "defaultKeyboardKey": "Shift"
+    },
+    {
+      "name": "geardown",
+      "label": "Diminuir marcha",
+      "group": "Transmissão",
+      "defaultKeyboardKey": "Ctrl"
+    },
+    {
+      "name": "gearuphint",
+      "label": "Indicar para subir marcha",
+      "group": "Transmissão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "geardownhint",
+      "label": "Indicar para descer marcha",
+      "group": "Transmissão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "transemi",
+      "label": "Alternar entre transmissão automática e sequencial",
+      "group": "Transmissão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "liftaxle",
+      "label": "Erguer ou baixar eixo do caminhão",
+      "group": "Caminhão",
+      "defaultKeyboardKey": "U"
+    },
+    {
+      "name": "liftaxlet",
+      "label": "Erguer ou baixar eixo do reboque",
+      "group": "Reboque",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "advpage0",
+      "label": "Exibir página de navegação",
+      "group": "Supervisor de Rotas",
+      "defaultKeyboardKey": "F5"
+    },
+    {
+      "name": "advpage1",
+      "label": "Exibir página de informações de trabalho",
+      "group": "Supervisor de Rotas",
+      "defaultKeyboardKey": "F6"
+    },
+    {
+      "name": "advpage2",
+      "label": "Exibir página de diagnóstico e assistência",
+      "group": "Supervisor de Rotas",
+      "defaultKeyboardKey": "F7"
+    },
+    {
+      "name": "advpage3",
+      "label": "Exibir página de informações",
+      "group": "Supervisor de Rotas",
+      "defaultKeyboardKey": "F8"
+    },
+    {
+      "name": "advpage4",
+      "label": "Exibir página de bate-papo",
+      "group": "Supervisor de Rotas",
+      "defaultKeyboardKey": "F9"
+    },
+    {
+      "name": "attach",
+      "label": "Engatar ou desengatar reboque",
+      "group": "Reboque",
+      "defaultKeyboardKey": "T"
+    },
+    {
+      "name": "diflock",
+      "label": "Bloqueio de diferencial",
+      "group": "Caminhão",
+      "defaultKeyboardKey": "V"
+    },
+    {
+      "name": "beacon",
+      "label": "Luz rotativa",
+      "group": "Caminhão",
+      "defaultKeyboardKey": "O"
+    },
+    {
+      "name": "cruiectrl",
+      "label": "Controle de cruzeiro",
+      "group": "Assistentes",
+      "defaultKeyboardKey": "C"
+    },
+    {
+      "name": "cruiectrlinc",
+      "label": "Aumentar velocidade do controle de cruzeiro",
+      "group": "Assistentes",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "cruiectrldec",
+      "label": "Reduzir velocidade do controle de cruzeiro",
+      "group": "Assistentes",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "cruiectrlres",
+      "label": "Retomar controle de cruzeiro",
+      "group": "Assistentes",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "motorbrake",
+      "label": "Freio Motor",
+      "group": "Freios Auxiliares",
+      "defaultKeyboardKey": "B"
+    },
+    {
+      "name": "engbrakeup",
+      "label": "Aumentar freio motor",
+      "group": "Freios Auxiliares",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "engbrakedwn",
+      "label": "Reduzir freio motor",
+      "group": "Freios Auxiliares",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "trailerbrake",
+      "label": "Freio do reboque",
+      "group": "Reboque",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "frontsuspup",
+      "label": "Subir suspensão dianteira",
+      "group": "Suspensão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "frontsuspdwn",
+      "label": "Descer suspensão dianteira",
+      "group": "Suspensão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "rearsuspup",
+      "label": "Subir suspensão traseira",
+      "group": "Suspensão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "rearsuspdwn",
+      "label": "Descer suspensão traseira",
+      "group": "Suspensão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "suspreset",
+      "label": "Redefinir suspensão",
+      "group": "Suspensão",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "horn",
+      "label": "Buzina",
+      "group": "Caminhão",
+      "defaultKeyboardKey": "H"
+    },
+    {
+      "name": "airhorn",
+      "label": "Buzina a ar",
+      "group": "Caminhão",
+      "defaultKeyboardKey": "N"
+    },
+    {
+      "name": "rwinopen",
+      "label": "Abrir janela direita",
+      "group": "Interior",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "rwinclose",
+      "label": "Fechar janela direita",
+      "group": "Interior",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "lwinopen",
+      "label": "Abrir janela esquerda",
+      "group": "Interior",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "lwinclose",
+      "label": "Fechar janela esquerda",
+      "group": "Interior",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "retarderauto",
+      "label": "Retarder automático",
+      "group": "Freios Auxiliares",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "retarderup",
+      "label": "Aumentar retarder",
+      "group": "Freios Auxiliares",
+      "defaultKeyboardKey": "Ç"
+    },
+    {
+      "name": "retarderdown",
+      "label": "Diminuir retarder",
+      "group": "Freios Auxiliares",
+      "defaultKeyboardKey": "Til"
+    },
+    {
+      "name": "radio",
+      "label": "reprodutor de áudio",
+      "group": "Rádio",
+      "defaultKeyboardKey": "R"
+    },
+    {
+      "name": "radionext",
+      "label": "Avançar no reprodutor de áudio",
+      "group": "Rádio",
+      "defaultKeyboardKey": "Page Down"
+    },
+    {
+      "name": "radioprev",
+      "label": "Retroceder no reprotudor de áudio",
+      "group": "Rádio",
+      "defaultKeyboardKey": "Page Up"
+    },
+    {
+      "name": "radioup",
+      "label": "Aumentar volume do reprodutor de áudio",
+      "group": "Rádio",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "radiodown",
+      "label": "Diminuir volume do reprodutor de áudio",
+      "group": "Rádio",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "navmap",
+      "label": "Mapa do mundo",
+      "group": "Ações Rápidas",
+      "defaultKeyboardKey": "M"
+    },
+    {
+      "name": "cam1",
+      "label": "Câmera Interna",
+      "group": "Controle de câmera",
+      "defaultKeyboardKey": "1"
+    },
+    {
+      "name": "cam2",
+      "label": "Câmera externa",
+      "group": "Controle de câmera",
+      "defaultKeyboardKey": "2"
+    },
+    {
+      "name": "advpagen",
+      "label": "Página seguinte do supervisor de rotas",
+      "group": "Supervisor de Rotas",
+      "defaultKeyboardKey": "Num 0"
+    },
+    {
+      "name": "advmouse",
+      "label": "Alternar para modo de controle por mouse",
+      "group": "Supervisor de Rotas",
+      "defaultKeyboardKey": "F1"
+    },
+    {
+      "name": "gar_man"
+    },
+    {
+      "name": "gearsel1on"
+    },
+    {
+      "name": "gearsel1off"
+    },
+    {
+      "name": "gearsel2on"
+    },
+    {
+      "name": "gearsel2off"
+    },
+    {
+      "name": "camzoom",
+      "label": "Zoom na câmera interna",
+      "group": "Câmeras Auxiliares",
+      "defaultKeyboardKey": ""
+    },
+    {
+      "name": "action2",
+      "label": "Ação Rápida 3",
+      "group": "Ações Rápidas",
+      "defaultKeyboardKey": ""
+    }
+  ]
 }
