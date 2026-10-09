@@ -1,10 +1,10 @@
 ;aiu;
 [Update1]
-Name=Central de controles 2.1.00
-Description=adicionado edicao de botoes para controle da tela do computador de bordo do painel de instrumentos
-URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.1.00/cargo_simuladores_central_controles_2.1.00.exe
-Size=75585307
-ServerFileName=cargo_simuladores_central_controles_2.1.00.exe
+Name=Central de controles 2.1.02
+Description=Partida do motor mais simples: sem Button Box com chave de ignicao, o caminhao volta a dar partida so com a tecla padrao do jogo, sem precisar configurar ligar eletrica. Apos atualizar, abra a Central de Controles, va em Plugins e clique em Instalar.
+URL=https://github.com/jandisonsantos/cargo-simuladores-downloads/releases/download/v2.1.02/cargo_simuladores_central_controles_2.1.02.exe
+Size=75608797
+ServerFileName=cargo_simuladores_central_controles_2.1.02.exe
 FilePath=[APPDIR]ChaveDeSetaETS2.exe
-Version=2.1.00
+Version=2.1.02
 Replaces=All
