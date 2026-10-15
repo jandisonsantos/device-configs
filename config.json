@@ -1,5 +1,5 @@
 {
-  "version": 4.31,
+  "version": 4.32,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -949,6 +949,15 @@
           "KeyboardKey": "r",
           "truckVariableName": "ElectricOn",
           "pressedButton": false
+        },
+        {
+          "name": "engine",
+          "btId": "16",
+          "buttonType": "game",
+          "keyboardKey": "E",
+          "truckVariableName": "",
+          "gameInput": "engine",
+          "enableInPausedGame": false
         }
       ]
     },
