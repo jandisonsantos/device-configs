@@ -1,5 +1,5 @@
 {
-  "version": 4.32,
+  "version": 4.33,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -7038,6 +7038,127 @@
         },
         "hasConfigPage": true
       },
+      "controllerList": null
+    },
+    {
+      "name": "Porta Scania NTG",
+      "type": "ButtonBox",
+      "vid": "2020",
+      "pid": "1059",
+      "configPageName": "buttonBoxPage",
+      "config": {
+        "hasLights": false,
+        "additionalLights": false,
+        "additionalPlusLights": false,
+        "RGBLights": false,
+        "buttonBoxConfig": {
+          "hasLights": false,
+          "additionalLights": false,
+          "additionalPlusLights": false,
+          "RGBLights": false
+        }
+      },
+      "buttons": [
+        {
+          "name": "resetar retrovisor",
+          "btId": "1",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "mirrorreset",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "selecionar_retrovisor_esq",
+          "btId": "6",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "cmirrorsel",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "selecionar_retrovisor_dir",
+          "btId": "7",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "fmirrorsel",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "cima",
+          "btId": "8",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "mirrorpitu",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "direita",
+          "btId": "9",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "mirroryawr",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "baixo",
+          "btId": "10",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "mirrorpitl",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "esquerda",
+          "btId": "11",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "mirroryawl",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "fechar_janela_esq",
+          "btId": "12",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "lwinclose",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "abrir_janela_esq",
+          "btId": "13",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "lwinopen",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "fechar_janela_direita",
+          "btId": "14",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "rwinclose",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "abrir_janela_direita",
+          "btId": "15",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "rwinopen",
+          "enableInPausedGame": false
+        }
+      ],
       "controllerList": null
     }
   ]
