@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "inputs": [
     {
       "name": "parkingbrake",
@@ -92,25 +92,46 @@
       "defaultKeyboardKey": "J"
     },
     {
-      "name": "cmirrorsel"
+      "name": "cmirrorsel",
+      "label": "selecionar retrovisor da esquerda",
+      "group": "Caminhão",
+      "defaultKeyboardKey": ""
     },
     {
-      "name": "fmirrorsel"
+      "name": "fmirrorsel",
+      "label": "selecionar retrovisor da direita",
+      "group": "Caminhão",
+      "defaultKeyboardKey": ""
     },
     {
-      "name": "mirroryawl"
+      "name": "mirroryawl",
+      "label": "ajustar retrovisor para esquerda",
+      "group": "Caminhão",
+      "defaultKeyboardKey": ""
     },
     {
-      "name": "mirroryawr"
+      "name": "mirroryawr",
+      "label": "ajustar retrovisor para direita",
+      "group": "Caminhão",
+      "defaultKeyboardKey": ""
     },
     {
-      "name": "mirrorpitu"
+      "name": "mirrorpitu",
+      "label": "ajustar retrovisor para cima",
+      "group": "Caminhão",
+      "defaultKeyboardKey": ""
     },
     {
-      "name": "mirrorpitl"
+      "name": "mirrorpitl",
+      "label": "ajustar retrovisor para baixo",
+      "group": "Caminhão",
+      "defaultKeyboardKey": ""
     },
     {
-      "name": "mirrorreset"
+      "name": "mirrorreset",
+      "label": "resetar retrovisor",
+      "group": "Caminhão",
+      "defaultKeyboardKey": ""
     },
     {
       "name": "retarder0",
