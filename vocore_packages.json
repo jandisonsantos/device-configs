@@ -1,0 +1,28 @@
+{
+    "version":  1,
+    "packages":  [
+                     {
+                         "id":  "gps-ets2",
+                         "type":  "gps",
+                         "name":  "GPS (mapa do ETS2)",
+                         "description":  "Mapa do Euro Truck Simulator 2 com cidades e mar, para usar a tela VoCore como GPS.",
+                         "author":  "Cargo Simuladores",
+                         "version":  "1.0.0",
+                         "url":  "https://github.com/jandisonsantos/device-configs/releases/download/vocore-packages/gps-ets2-1.0.0.zip",
+                         "sha256":  "5c47b4c7bded79af89dd1b0b7b22409950f3732130bf5bbfd826ff7338a4de29",
+                         "size":  1270273
+                     },
+                     {
+                         "id":  "dash-scania-smart-b4rn3y",
+                         "type":  "dash",
+                         "name":  "Scania Smart Dash",
+                         "description":  "Painel Scania com várias telas (velocidade, combustível, suspensão, tempo de direção e mais). Distribuído com autorização do autor.",
+                         "author":  "b4rn3y",
+                         "version":  "1.4.1",
+                         "url":  "https://github.com/jandisonsantos/device-configs/releases/download/vocore-packages/dash-scania-smart-b4rn3y-1.4.1.zip",
+                         "sha256":  "1294194cdfefdeda08e07bb55360a4341f5eb94446a375f9e1027480a6a00d70",
+                         "size":  9523822,
+                         "folder":  "Scania Smart Dash by b4rn3y v1.4.1"
+                     }
+                 ]
+}
