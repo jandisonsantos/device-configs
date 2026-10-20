@@ -1,5 +1,5 @@
 {
-  "version": 4.34,
+  "version": 4.35,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -7047,16 +7047,13 @@
       "pid": "1059",
       "configPageName": "buttonBoxPage",
       "config": {
-        "hasLights": false,
-        "additionalLights": false,
-        "additionalPlusLights": false,
-        "RGBLights": false,
         "buttonBoxConfig": {
           "hasLights": true,
           "additionalLights": false,
           "additionalPlusLights": false,
           "RGBLights": true
-        }
+        },
+        "hasConfigPage": true
       },
       "buttons": [
         {
