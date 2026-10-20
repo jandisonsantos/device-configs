@@ -1,5 +1,5 @@
 {
-  "version": 4.33,
+  "version": 4.34,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -7052,10 +7052,10 @@
         "additionalPlusLights": false,
         "RGBLights": false,
         "buttonBoxConfig": {
-          "hasLights": false,
+          "hasLights": true,
           "additionalLights": false,
           "additionalPlusLights": false,
-          "RGBLights": false
+          "RGBLights": true
         }
       },
       "buttons": [
