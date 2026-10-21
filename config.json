@@ -1,5 +1,5 @@
 {
-  "version": 4.35,
+  "version": 4.36,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -7066,12 +7066,57 @@
           "enableInPausedGame": false
         },
         {
+          "name": "resetar_retrovisor",
+          "btId": "1",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "app.mirror_reset",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "selecionar_retrovisor_frontal",
+          "btId": "2",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "app.mirror_sel_3",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "selecionar_retrovisor_lateral",
+          "btId": "3",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "app.mirror_sel_6",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "selecionar_retrovisor_convexo_esq",
+          "btId": "4",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "app.mirror_sel_2",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "selecionar_retrovisor_convexo_dir",
+          "btId": "5",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "app.mirror_sel_5",
+          "enableInPausedGame": false
+        },
+        {
           "name": "selecionar_retrovisor_esq",
           "btId": "6",
           "buttonType": "game",
           "keyboardKey": "",
           "truckVariableName": "",
-          "gameInput": "cmirrorsel",
+          "gameInput": "app.mirror_sel_1",
           "enableInPausedGame": false
         },
         {
@@ -7080,43 +7125,43 @@
           "buttonType": "game",
           "keyboardKey": "",
           "truckVariableName": "",
-          "gameInput": "fmirrorsel",
+          "gameInput": "app.mirror_sel_4",
           "enableInPausedGame": false
         },
         {
-          "name": "cima",
+          "name": "retrovisor_cima",
           "btId": "8",
           "buttonType": "game",
           "keyboardKey": "",
           "truckVariableName": "",
-          "gameInput": "mirrorpitu",
+          "gameInput": "app.mirror_up",
           "enableInPausedGame": false
         },
         {
-          "name": "direita",
+          "name": "retrovisor_direita",
           "btId": "9",
           "buttonType": "game",
           "keyboardKey": "",
           "truckVariableName": "",
-          "gameInput": "mirroryawr",
+          "gameInput": "app.mirror_right",
           "enableInPausedGame": false
         },
         {
-          "name": "baixo",
+          "name": "retrovisor_baixo",
           "btId": "10",
           "buttonType": "game",
           "keyboardKey": "",
           "truckVariableName": "",
-          "gameInput": "mirrorpitl",
+          "gameInput": "app.mirror_down",
           "enableInPausedGame": false
         },
         {
-          "name": "esquerda",
+          "name": "retrovisor_esquerda",
           "btId": "11",
           "buttonType": "game",
           "keyboardKey": "",
           "truckVariableName": "",
-          "gameInput": "mirroryawl",
+          "gameInput": "app.mirror_left",
           "enableInPausedGame": false
         },
         {
