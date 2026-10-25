@@ -13,6 +13,18 @@
                          "size":  1270273
                      },
                      {
+                         "id":  "gps-rotas-brasil",
+                         "type":  "gps",
+                         "name":  "GPS (mapa Rotas Brasil)",
+                         "description":  "Mapa do Rotas Brasil para o GPS da tela VoCore. Precisa do mod Rotas Brasil instalado no jogo.",
+                         "author":  "Cargo Simuladores",
+                         "version":  "1.0.0",
+                         "url":  "https://github.com/jandisonsantos/device-configs/releases/download/vocore-packages/gps-rotas-brasil-1.0.0.zip",
+                         "sha256":  "e44cb2ebb27d6130c772b727b5f30f0a112a6c399864d03fa46e9c5223f0d998",
+                         "size":  184909,
+                         "folder":  "mapas/ETS2/rotasbrasil"
+                     },
+                     {
                          "id":  "dash-scania-smart-b4rn3y",
                          "type":  "dash",
                          "name":  "Scania Smart Dash",
