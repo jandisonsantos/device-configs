@@ -1,5 +1,5 @@
 {
-  "version": 4.37,
+  "version": 4.38,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -7262,7 +7262,8 @@
           "additionalLights": true,
           "additionalPlusLights": true,
           "RGBLights": true
-        }
+        },
+        "hasConfigPage": true
       },
       "controllerList": null
     }
