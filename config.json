@@ -1,5 +1,5 @@
 {
-  "version": 4.36,
+  "version": 4.37,
   "controllers": [
     {
       "name": "Central de Comandos",
@@ -7201,6 +7201,69 @@
           "enableInPausedGame": false
         }
       ],
+      "controllerList": null
+    },
+    {
+      "name": "Button Box Oslo",
+      "type": "ButtonBox",
+      "vid": "2020",
+      "pid": "1160",
+      "configPageName": "buttonBoxPage",
+      "buttons": [
+        {
+          "name": "eletrica",
+          "btId": "23",
+          "buttonType": "game",
+          "keyboardKey": "",
+          "truckVariableName": "",
+          "gameInput": "ignitionon",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "motor",
+          "btId": "24",
+          "buttonType": "game",
+          "keyboardKey": "E",
+          "truckVariableName": "",
+          "gameInput": "engine",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "down",
+          "btId": "30",
+          "buttonType": "app",
+          "keyboardKey": "Space",
+          "truckVariableName": "ParkBrakeDown",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "up",
+          "btId": "31",
+          "buttonType": "app",
+          "keyboardKey": "Space",
+          "truckVariableName": "ParkBrakeUp",
+          "gameInput": "",
+          "enableInPausedGame": false
+        },
+        {
+          "name": "alerta",
+          "btId": "32",
+          "buttonType": "app",
+          "keyboardKey": "F",
+          "truckVariableName": "HazardWarningLights",
+          "gameInput": "",
+          "enableInPausedGame": false
+        }
+      ],
+      "config": {
+        "buttonBoxConfig": {
+          "hasLights": true,
+          "additionalLights": true,
+          "additionalPlusLights": true,
+          "RGBLights": true
+        }
+      },
       "controllerList": null
     }
   ]
