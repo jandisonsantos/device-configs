@@ -7,10 +7,10 @@
                          "name":  "GPS (mapa do ETS2)",
                          "description":  "Mapa do Euro Truck Simulator 2 com cidades e mar, para usar a tela VoCore como GPS.",
                          "author":  "Cargo Simuladores",
-                         "version":  "1.0.0",
-                         "url":  "https://github.com/jandisonsantos/device-configs/releases/download/vocore-packages/gps-ets2-1.0.0.zip",
-                         "sha256":  "5c47b4c7bded79af89dd1b0b7b22409950f3732130bf5bbfd826ff7338a4de29",
-                         "size":  1270273
+                         "version":  "1.1.0",
+                         "url":  "https://github.com/jandisonsantos/device-configs/releases/download/vocore-packages/gps-ets2-1.1.0.zip",
+                         "sha256":  "4d7ab93b367574ef7b679dfa3b50f9b4c856e4b5229426864f078ed285225bc7",
+                         "size":  813418
                      },
                      {
                          "id":  "gps-rotas-brasil",
