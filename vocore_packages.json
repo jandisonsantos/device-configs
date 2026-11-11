@@ -25,6 +25,18 @@
                          "folder":  "mapas/ETS2/rotasbrasil"
                      },
                      {
+                         "id":  "dash-scania-multimidia",
+                         "type":  "dash",
+                         "name":  "Scania Multimídia",
+                         "description":  "Central multimídia do Scania com o GPS embutido, consumo, autonomia, carga e computador de bordo.",
+                         "author":  "Cargo Simuladores",
+                         "version":  "1.0.0",
+                         "url":  "https://github.com/jandisonsantos/device-configs/releases/download/vocore-packages/dash-scania-multimidia-1.0.0.zip",
+                         "sha256":  "02b3d4f985f232cc53bf944162cfab3df35c3164cd0d017d79358d20fffd3a2e",
+                         "size":  789617,
+                         "folder":  "Scania Multimidia"
+                     },
+                     {
                          "id":  "dash-scania-smart-b4rn3y",
                          "type":  "dash",
                          "name":  "Scania Smart Dash",
