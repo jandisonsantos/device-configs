@@ -30,10 +30,10 @@
             "name": "Scania Multimídia",
             "description": "Central multimídia do Scania com o GPS embutido, consumo, autonomia, carga e computador de bordo.",
             "author": "Cargo Simuladores",
-            "version": "1.0.1",
-            "url": "https://github.com/jandisonsantos/device-configs/releases/download/vocore-packages/dash-scania-multimidia-1.0.1.zip",
-            "sha256": "ebf43873967692c1b0468e0db9330018c29e1db72b196701a010db17d007296e",
-            "size": 742258,
+            "version": "1.0.2",
+            "url": "https://github.com/jandisonsantos/device-configs/releases/download/vocore-packages/dash-scania-multimidia-1.0.2.zip",
+            "sha256": "fa9c875de381c9973a78002891f7814268ed2fd5b74cf02bf6b9556d7f5ae047",
+            "size": 737954,
             "folder": "Scania Multimidia"
         },
         {
