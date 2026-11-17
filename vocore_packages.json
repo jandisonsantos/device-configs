@@ -47,6 +47,18 @@
             "sha256": "1294194cdfefdeda08e07bb55360a4341f5eb94446a375f9e1027480a6a00d70",
             "size": 9523822,
             "folder": "Scania Smart Dash by b4rn3y v1.4.1"
+        },
+        {
+            "id": "dash-button-box-dash",
+            "type": "dash",
+            "name": "Button Box Dash",
+            "description": "",
+            "author": "Cargo Simuladores",
+            "version": "1.0.0",
+            "url": "https://github.com/jandisonsantos/device-configs/releases/download/vocore-packages/dash-button-box-dash-1.0.0.zip",
+            "sha256": "28bcba3c006f386afc6c175cfffa2bc4e73dd63252c15f70257d348fb3c8b5a4",
+            "size": 412788,
+            "folder": "Button Box Dash"
         }
     ]
 }
